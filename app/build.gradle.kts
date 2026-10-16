@@ -33,8 +33,8 @@ android {
         applicationId = "com.plainapps.dimmer"
         minSdk = 26
         targetSdk = 36
-        versionCode = 30101 // scheme MMmmpp: 3.1.1 -> 30101; every Play upload must be higher (RELEASE_KIT section 2)
-        versionName = "3.1.1"
+        versionCode = 30102 // scheme MMmmpp: 3.1.2 -> 30102 (3.1.2 = Plain Apps privacy link, 2026-10-16); every Play upload must be higher (RELEASE_KIT section 2)
+        versionName = "3.1.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
