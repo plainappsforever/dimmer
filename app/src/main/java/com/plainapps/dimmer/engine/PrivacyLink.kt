@@ -6,7 +6,7 @@ package com.plainapps.dimmer.engine
  * permission. Pure and JVM-tested: [open] gets the platform call as a function.
  */
 object PrivacyLink {
-    const val URL = "https://taulon.org/apps/dimmer/privacy"
+    const val URL = "https://plainapps.dfdsfdsfsdf.workers.dev/apps/dimmer/privacy"
 
     /**
      * Calls [launch] with [URL]. Returns false when it throws (ActivityNotFoundException when no browser is installed,

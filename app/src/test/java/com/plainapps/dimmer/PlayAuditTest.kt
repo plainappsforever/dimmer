@@ -35,7 +35,7 @@ class PlayAuditTest {
     fun `privacy link opens the https policy page`() {
         val opened = mutableListOf<String>()
         assertTrue(PrivacyLink.open { opened += it })
-        assertEquals(listOf("https://taulon.org/apps/dimmer/privacy"), opened)
+        assertEquals(listOf("https://plainapps.dfdsfdsfsdf.workers.dev/apps/dimmer/privacy"), opened)
         assertTrue(PrivacyLink.URL.startsWith("https://"))
     }
 
