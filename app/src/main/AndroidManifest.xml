@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- v3 P1: only used when the user picks the "system brightness" backlight method;
+         granted by the user on the "Modify system settings" screen. -->
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <!-- v3 P1: replays the brightness journal after a reboot (BacklightRestoreReceiver). -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- v3.1.1: localeConfig = the per-app language list (res/xml/locales_config.xml). UnusedTranslation is ignored
+         because lint wants "in" for values-in, while the file uses the BCP 47 tag "id"; Android 16 lists Indonesian
+         with "id" (verified on the emulator), and scripts/make-strings.py checks the list against the folders. -->
+    <application
+        android:name=".DimmerApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:localeConfig="@xml/locales_config"
+        android:theme="@style/Theme.Dimmer"
+        android:supportsRtl="true"
+        tools:targetApi="33"
+        tools:ignore="UnusedTranslation">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.Dimmer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- v3 P5: long-press on either Quick Settings tile opens the app. -->
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+
+        <!-- v3 P5: target of every app shortcut. Not exported: the launcher starts shortcuts as us. -->
+        <activity
+            android:name=".ShortcutActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:theme="@style/Theme.Dimmer.Trampoline" />
+
+        <!-- v3 P5: home-screen widget (RemoteViews, D-V3-05). Taps go to DimmerActionReceiver. -->
+        <receiver
+            android:name=".DimmerWidgetProvider"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/dimmer_widget_info" />
+        </receiver>
+
+        <service
+            android:name=".DimmerAccessibilityService"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility_service_config" />
+        </service>
+
+        <!-- v3 P4: notification buttons (and the P5 widget). Only our own PendingIntents. -->
+        <receiver
+            android:name=".DimmerActionReceiver"
+            android:exported="false" />
+
+        <!-- v3 P4: automation intents (Tasker). Disabled until the user switches on "Allow other
+             apps to control Dimmer" (D-V3-13); DimmerApplication enables the component. -->
+        <receiver
+            android:name=".AutomationReceiver"
+            android:enabled="false"
+            android:exported="true"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.plainapps.dimmer.action.ON" />
+                <action android:name="com.plainapps.dimmer.action.OFF" />
+                <action android:name="com.plainapps.dimmer.action.TOGGLE" />
+                <action android:name="com.plainapps.dimmer.action.PAUSE" />
+                <action android:name="com.plainapps.dimmer.action.RESUME" />
+                <action android:name="com.plainapps.dimmer.action.DARKER" />
+                <action android:name="com.plainapps.dimmer.action.LIGHTER" />
+                <action android:name="com.plainapps.dimmer.action.SET" />
+                <action android:name="com.plainapps.dimmer.action.PRESET" />
+                <action android:name="com.plainapps.dimmer.action.NEXT_PRESET" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Not exported: only the system's own BOOT_COMPLETED / MY_PACKAGE_REPLACED reach it. -->
+        <receiver
+            android:name=".backlight.BacklightRestoreReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".DimmerTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_tile_dimmer"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <!-- v3 P5: second tile, steps through the presets (D-V3-06). -->
+        <service
+            android:name=".DimmerPresetTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_tile_presets"
+            android:label="@string/tile_presets_label"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

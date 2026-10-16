@@ -1,0 +1,165 @@
+# Spanish (es). Informal "tú", as Google's Spanish UI. Android 16 terms: Accesibilidad, "Usar Dimmer", Modificar ajustes
+# del sistema, Información de aplicación, Ajuste restringido / Permitir ajustes restringidos, Ajustes rápidos, Modo Seguro.
+notification_schedule_channel_name	Estado de la programación
+notification_title_on	Dimmer · %1$s · %2$d %%
+notification_paused_text	Capa desactivada, tu brillo ha vuelto.
+notification_schedule_off_text	Desactivado por esta noche.
+notification_action_lighter	Más claro
+notification_action_darker	Más oscuro
+notification_action_pause	Pausar 15 min
+notification_action_resume	Reanudar
+notification_action_off	Desactivar
+notification_action_turn_on	Activar
+label_tint	Tono
+label_tint_strength	Intensidad del tono
+tint_neutral	Neutro
+tint_amber	Ámbar
+tint_candle	Vela
+tint_red	Rojo
+label_settings	Ajustes
+label_back	Atrás
+label_backlight_section	Retroiluminación
+label_presets	Ajustes predefinidos
+label_custom	Personalizado
+label_save_preset	Guardar como predefinido
+presets_full	El máximo son 8 ajustes predefinidos. Mantén pulsado uno para eliminarlo.
+presets_hint	Toca para aplicar. Mantén pulsado para cambiar el nombre, actualizar o eliminar.
+preset_long_press_label	Opciones del ajuste predefinido
+menu_rename	Cambiar nombre
+menu_update_to_current	Actualizar con los valores actuales
+menu_add_to_cycle	Incluir en el ciclo del icono
+menu_remove_from_cycle	Quitar del ciclo del icono
+menu_delete	Eliminar
+dialog_save_title	Guardar como predefinido
+dialog_rename_title	Cambiar nombre del ajuste predefinido
+dialog_name_label	Nombre
+dialog_delete_title	¿Eliminar este ajuste predefinido?
+dialog_save	Guardar
+dialog_cancel	Cancelar
+label_add_tile	Añadir icono a Ajustes rápidos
+label_allow	Configurar acceso
+overlay_permission_explainer	Dimmer necesita acceso de Accesibilidad para dibujar su capa de atenuación sobre todas las pantallas, incluida la barra de estado. Dimmer nunca lee el contenido de tu pantalla. Hasta que lo permitas, Dimmer no puede atenuar la pantalla.
+accessibility_service_description	Permite que Dimmer dibuje su capa de atenuación sobre otras aplicaciones y pantallas del sistema sin bloquear tus toques. Dimmer no lee ni graba nada de tu pantalla.
+notification_hidden_hint	Notificación oculta. Desactívalo aquí o con el icono de Ajustes rápidos.
+label_hybrid	Bajar también la retroiluminación
+hybrid_explainer	Primero baja la retroiluminación real y después oscurece más con la capa.
+label_keep_awake	Mantener la pantalla encendida al atenuar
+label_advanced	Avanzado
+label_backlight_method	Método de retroiluminación
+method_auto	Automático (recomendado)
+method_window	Brillo de la ventana (sin permiso)
+method_system	Brillo del sistema (necesita «Modificar ajustes del sistema»)
+method_none	Solo la capa
+write_settings_needed	Para el brillo del sistema, Dimmer necesita «Modificar ajustes del sistema». Mientras atenúa, Dimmer desactiva el brillo automático y baja el brillo del sistema; al terminar, ambos vuelven a como estaban. Hasta entonces, Dimmer atenúa solo con la capa.
+method_system_explainer	Brillo del sistema: mientras atenúa, Dimmer desactiva el brillo automático y baja el brillo del sistema. Al terminar, ambos vuelven a como estaban, salvo que los hayas cambiado tú entretanto.
+label_allow_write_settings	Permitir
+label_schedule_section	Programación
+label_schedule_enabled	Atenuar según una programación
+label_schedule_start	Inicio
+label_schedule_end	Fin
+schedule_kind_time	Hora
+schedule_kind_sunset	Puesta de sol
+schedule_kind_sunrise	Amanecer
+label_sun_offset	Desfase de las horas solares: %1$s min
+label_fade_in	Transición
+fade_off	Desactivada
+fade_minutes	%1$d min
+label_schedule_preset	Atenuar a
+schedule_preset_missing	Ese ajuste predefinido se eliminó. La programación usa tu aspecto actual.
+label_resume_after_restart	Reanudar tras reiniciar
+resume_explainer	Si el teléfono se reinicia durante el horario programado, vuelve a atenuar enseguida. Desactivado: la programación espera a su siguiente inicio.
+schedule_today	Hoy: de %1$s a %2$s
+schedule_empty	El inicio y el fin son la misma hora, así que la programación nunca se ejecuta.
+schedule_sun_times	Puesta de sol %1$s · amanecer %2$s
+schedule_polar_day	Hoy no hay puesta de sol (sol de medianoche).
+schedule_polar_night	Hoy no hay amanecer (noche polar).
+schedule_polar_fallback	Se usa de 21:00 a 07:00 mientras no haya puesta de sol ni amanecer.
+schedule_zone_used	Calculado para la zona horaria %1$s (%2$s, %3$s), no para tu ubicación. Si no cuadra, usa el desfase.
+schedule_zone_estimated	La zona horaria %1$s no tiene una ubicación conocida: las horas solares son estimadas. Si no cuadran, usa el desfase.
+status_fading_in	Transición hasta las %1$s
+status_until	Programación · hasta las %1$s
+status_resumes	Desactivado · la programación vuelve a las %1$s
+status_starts	La programación empieza a las %1$s
+day_tomorrow	mañana
+status_paused	En pausa · vuelve a las %1$s
+label_pause	Pausar
+tile_paused	En pausa
+pause_minutes	%1$d min
+label_resume	Reanudar ahora
+label_safety_section	Seguridad
+label_shake	Agitar para desactivar
+shake_explainer	Dos sacudidas fuertes en un segundo desactivan la atenuación. Funciona mientras la capa se ve y la pantalla está encendida, también en la pantalla de bloqueo. Déjalo activado: en los niveles más oscuros la pantalla no muestra nada y agitar es la única salida que no necesita ver.
+label_shake_sensitivity	Sensibilidad
+shake_low	Baja
+shake_medium	Media
+shake_high	Alta
+label_controls_section	Controles
+label_automation	Permitir que otras aplicaciones controlen Dimmer
+automation_explainer	Para Tasker y aplicaciones similares: envía un broadcast con el paquete com.plainapps.dimmer y la acción com.plainapps.dimmer.action. más ON, OFF, TOGGLE, PAUSE (extra minutes), RESUME, DARKER o LIGHTER (extra step), SET (extras darkness, tint, strength; solo cambia el aspecto), PRESET (extra name) o NEXT_PRESET. Mientras esté activado, cualquier aplicación instalada puede encender o apagar el atenuador. Durante un minuto después de que tú desactives la atenuación, otras aplicaciones no pueden volver a activarla ni cambiar el aspecto, y DARKER nunca supera la oscuridad que elegiste.
+widget_description	Botón de encendido y ajustes predefinidos de Dimmer
+widget_power_description	Activar o desactivar la atenuación
+widget_on	Activado · %1$d %%
+widget_off	Desactivado
+tile_look_with_darkness	%1$s · %2$d %%
+tile_presets_label	Predefinidos
+shortcut_off_short	Desactivar
+shortcut_off_long	Desactivar Dimmer
+shortcut_candlelight_short	Luz de velas
+shortcut_candlelight_long	Atenuar a Luz de velas
+shortcut_deep_red_short	Rojo intenso
+shortcut_deep_red_long	Atenuar a Rojo intenso
+shortcut_preset_deleted	No se encontró el ajuste predefinido
+menu_add_to_home	Añadir a la pantalla de inicio
+label_add_widget	Añadir widget a la pantalla de inicio
+label_add_preset_tile	Añadir icono a Ajustes rápidos: Predefinidos
+controls_hint	El icono activa y desactiva la atenuación. El icono de predefinidos recorre los ajustes marcados con «Incluir en el ciclo del icono» y después se desactiva. Mantén pulsado un ajuste predefinido en la pantalla principal de la aplicación para fijarlo como acceso directo.
+disclosure_title	Dimmer necesita acceso de Accesibilidad
+disclosure_purpose	Dimmer usa el servicio de Accesibilidad de Android para una sola tarea: dibujar la capa de atenuación oscura y tintada sobre todas las pantallas, incluidas la barra de estado y el panel de notificaciones. Así puede dejar la pantalla más oscura de lo que permite el brillo del sistema, y por eso sigue funcionando cuando cambias de aplicación.
+disclosure_does_title	Qué hace Dimmer con él
+disclosure_does	• Muestra la capa de atenuación y, si dejas activado «Bajar también la retroiluminación», baja el brillo de la pantalla mientras la atenuación está activa.\n• Agitar para desactivar (activado por defecto, se puede desactivar): lee el sensor de movimiento del teléfono mientras se ve la capa. Luz ambiental (solo si la activas): lee el sensor de luz mientras la atenuación está activa. Los datos de los sensores nunca salen de la aplicación.
+disclosure_never_title	Qué no hace nunca Dimmer
+disclosure_never	• Nunca lee lo que hay en tu pantalla: ni textos, ni aplicaciones, ni contraseñas, ni mensajes.\n• Nunca observa lo que escribes o tocas, y nunca toca ni escribe por ti.\n• Nunca recoge ni comparte ningún dato. Tus ajustes se quedan en este teléfono. Dimmer no tiene cuentas, ni analíticas, ni permiso de internet.
+disclosure_android_note	A continuación, Android muestra su propia advertencia general, que describe todos los servicios de accesibilidad con las mismas palabras. El servicio de Dimmer está configurado para que no pueda leer el contenido de la pantalla. Puedes desactivar el acceso en Ajustes cuando quieras.
+disclosure_steps	En la siguiente pantalla, activa «Usar Dimmer».
+disclosure_restricted	Si Android muestra «Ajuste restringido»: abre «Información de aplicación», toca los tres puntos, elige «Permitir ajustes restringidos» y vuelve a intentarlo.
+disclosure_agree	Aceptar y abrir Ajustes
+disclosure_not_now	Ahora no
+notification_alert_channel_name	Dimmer se ha detenido
+stopped_title	Dimmer se ha detenido
+stopped_text	El acceso de Accesibilidad de Dimmer se ha detenido, así que tu pantalla vuelve a tener el brillo normal. Toca para volver a activarlo.
+label_room_section	Luz ambiental
+label_ambient	Adaptar a la luz ambiental
+ambient_explainer	Solo mientras la atenuación está activa. En una habitación muy oscura (menos de 3 lux durante 10 segundos), Dimmer cambia al ajuste para habitación oscura. En una habitación luminosa (más de 150 lux durante 10 segundos), suspende la capa y te devuelve la retroiluminación hasta que la habitación baje de 80 lux. Entre medias muestra el aspecto que elegiste.
+label_dark_room_preset	Ajuste para habitación oscura
+ambient_dark_room_missing	Ese ajuste predefinido se eliminó. En una habitación oscura, Dimmer mantiene el aspecto que elegiste.
+ambient_no_sensor	Este teléfono no tiene sensor de luz, así que esto no hace nada.
+status_room_bright	Habitación luminosa · atenuación suspendida
+status_room_dark	Habitación oscura · con %1$s
+label_status_section	Estado
+diag_accessibility_on	Acceso de Accesibilidad: activado
+diag_accessibility_off	Acceso de Accesibilidad: desactivado. Dimmer no puede atenuar.
+diag_backlight_window	Retroiluminación: brillo de la ventana (sin permiso)
+diag_backlight_system	Retroiluminación: brillo del sistema
+diag_backlight_none_hybrid_off	Retroiluminación: sin cambios («Bajar también la retroiluminación» está desactivado), solo la capa
+diag_backlight_none	Retroiluminación: solo la capa hasta que se permita «Modificar ajustes del sistema»
+diag_write_ok	Modificar ajustes del sistema: permitido
+diag_write_off	Modificar ajustes del sistema: no permitido. El método de brillo del sistema lo necesita.
+diag_write_not_needed	Modificar ajustes del sistema: no permitido (el método actual no lo necesita)
+diag_notifications_ok	Notificaciones: permitidas
+diag_notifications_off	Notificaciones: bloqueadas. No se pueden mostrar la notificación de atenuación ni el aviso «Dimmer se ha detenido».
+diag_schedule_off	Programación: desactivada
+diag_schedule_next	Programación: %1$s
+diag_fix_access	Configurar acceso
+diag_fix_write	Permitir
+diag_fix_notifications	Abrir ajustes de notificaciones
+diag_recovery_title	Si la pantalla se queda demasiado oscura
+diag_recovery	• Agita el teléfono dos veces. Agitar para desactivar está activado por defecto y también funciona en la pantalla de bloqueo.\n• O, en la notificación de Dimmer, toca Pausar y luego Desactivar. El icono y el widget de Dimmer también la desactivan.\n• O reinicia el teléfono. Si «Reanudar tras reiniciar» está activado y la programación está en curso, la atenuación vuelve tras el reinicio: reinicia y después agita el teléfono dos veces.\n• Último recurso: inicia el teléfono en Modo Seguro. Desactiva todas las aplicaciones de accesibilidad, incluida Dimmer.
+preset_evening	Noche
+preset_reading	Lectura
+preset_candlelight	Luz de velas
+preset_deep_red	Rojo intenso
+preset_ultra_dim	Ultraoscuro
+label_about_section	Acerca de
+label_privacy_policy	Política de privacidad
+privacy_summary	Dimmer no recoge ningún dato y no tiene permiso de internet. Tus ajustes se quedan en este teléfono.
+privacy_no_browser	Ninguna aplicación de este teléfono puede abrir enlaces web. La política de privacidad está en:

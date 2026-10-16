@@ -1,0 +1,33 @@
+Dimmer macht dein Handy dunkler, als der Helligkeitsregler es erlaubt, zum Beispiel im Bett oder in einem dunklen Raum.
+
+Ein Regler, eine Skala. Der erste Teil senkt die echte Hintergrundbeleuchtung bis zum Minimum. Der Rest legt eine dunkle Schicht darüber, bis der Bildschirm ganz schwarz ist. Die Schicht deckt auch Statusleiste und Benachrichtigungsleiste ab.
+
+DAS KANN DIMMER
+• Voreinstellungen: Abend, Lesen, Kerzenlicht, Tiefrot und Ultra dunkel. Du kannst sie ändern oder eigene speichern (bis zu 8).
+• Vier Farbtöne (Neutral, Bernstein, Kerze, Rot) mit einstellbarer Stärke.
+• Zeitplan: zu einer Uhrzeit oder bei Sonnenuntergang abdunkeln, langsam einblenden, zu einer Uhrzeit oder bei Sonnenaufgang beenden. Der Sonnenuntergang wird aus deiner Zeitzone berechnet, deshalb braucht Dimmer keine Standortberechtigung.
+• Pause für 15, 30 oder 60 Minuten.
+• Widget für den Startbildschirm, zwei Schnelleinstellungs-Kacheln, App-Verknüpfungen und eine leise Benachrichtigung mit Heller, Dunkler und Pause.
+• Optional, alles zunächst aus: Anpassung an das Raumlicht (Lichtsensor), Bildschirm beim Abdunkeln anlassen, Steuerung durch Tasker und ähnliche Apps.
+• Keine Werbung, kein Konto, keine Analyse, keine Internetberechtigung. Alles bleibt auf deinem Handy.
+• In 15 Sprachen verfügbar.
+
+WARUM DIMMER BEDIENUNGSHILFEN-ZUGRIFF BRAUCHT
+Dimmer nutzt den Bedienungshilfen-Dienst von Android für genau eine Aufgabe: Die Abdunkelungsschicht wird über allen anderen Bildschirmen gezeichnet, auch über Statusleiste und Benachrichtigungsleiste. Dimmer liest oder speichert nicht, was auf deinem Bildschirm steht, sieht nicht, was du tippst oder berührst, und tippt nie für dich. Android zeigt bei jedem Bedienungshilfen-Dienst dieselbe allgemeine Warnung; der Dienst von Dimmer ist so eingerichtet, dass er keine Bildschirminhalte abrufen kann. Bevor sich etwas öffnet, zeigt die App eine vollständige Erklärung und fragt nach deiner Zustimmung. Dimmer ist kein Hilfsmittel für Menschen mit Behinderung, sondern ein Bildschirm-Dimmer, der diesen Zugriff braucht, um über Systembildschirme zu zeichnen.
+
+SO SCHALTEST DU DAS ABDUNKELN AUS
+• Dimmer-Kachel in den Schnelleinstellungen oder das Widget antippen.
+• In der Benachrichtigung auf Pause 15 Min. und dann auf Aus tippen.
+• App öffnen und das Abdunkeln ausschalten.
+• Das Handy zweimal schütteln (standardmäßig an, in den Einstellungen abschaltbar).
+• Unter Einstellungen > Bedienungshilfen "Dimmer verwenden" ausschalten. Die Schicht verschwindet sofort.
+• Handy neu starten. Nach einem Neustart ist das Abdunkeln aus, außer du hast beim Zeitplan "Nach Neustart fortsetzen" eingeschaltet; dann neu starten und das Handy zweimal schütteln.
+In der dunkelsten Stufe ist der Bildschirm ganz schwarz, ohne sichtbaren Text. Dann das Handy zweimal schütteln oder neu starten.
+
+GUT ZU WISSEN
+• Die Akku-Sparfunktionen mancher Hersteller schalten Bedienungshilfen-Dienste ab. Dimmer zeigt dann den Hinweis "Dimmer wurde angehalten" und der Bildschirm wird wieder normal.
+• Das Helligkeitsverhalten unterscheidet sich zwischen Handy-Modellen.
+• Der optionale Erweiterte Schutz von Android blockiert den Bedienungshilfen-Zugriff für Apps wie Dimmer.
+• Dimmer macht keine medizinischen Versprechen und ist kein Medizinprodukt.
+
+Fragen oder Probleme: Schreib an die E-Mail-Adresse des Entwicklers auf dieser Seite.

@@ -1,0 +1,166 @@
+# Vietnamese (vi). "bạn", as Google's Vietnamese UI. Android 16 terms: Hỗ trợ tiếp cận, "Sử dụng tính năng Dimmer",
+# Sửa đổi các chế độ cài đặt hệ thống, Thông tin ứng dụng, Chế độ cài đặt bị hạn chế / Cho phép các chế độ cài đặt bị
+# hạn chế, Cài đặt nhanh, Chế độ an toàn.
+notification_schedule_channel_name	Trạng thái lịch biểu
+notification_title_on	Dimmer · %1$s · %2$d %%
+notification_paused_text	Lớp phủ đã tắt, độ sáng của bạn đã trở lại.
+notification_schedule_off_text	Đã tắt cho tối nay.
+notification_action_lighter	Sáng hơn
+notification_action_darker	Tối hơn
+notification_action_pause	Tạm dừng 15 phút
+notification_action_resume	Tiếp tục
+notification_action_off	Tắt
+notification_action_turn_on	Bật
+label_tint	Tông màu
+label_tint_strength	Độ đậm tông màu
+tint_neutral	Trung tính
+tint_amber	Hổ phách
+tint_candle	Nến
+tint_red	Đỏ
+label_settings	Cài đặt
+label_back	Quay lại
+label_backlight_section	Đèn nền
+label_presets	Cài đặt sẵn
+label_custom	Tùy chỉnh
+label_save_preset	Lưu thành cài đặt sẵn
+presets_full	Tối đa là 8 cài đặt sẵn. Nhấn và giữ một cài đặt để xóa.
+presets_hint	Nhấn để áp dụng. Nhấn và giữ để đổi tên, cập nhật hoặc xóa.
+preset_long_press_label	Tùy chọn cài đặt sẵn
+menu_rename	Đổi tên
+menu_update_to_current	Cập nhật theo giá trị hiện tại
+menu_add_to_cycle	Đưa vào vòng chuyển của ô
+menu_remove_from_cycle	Bỏ khỏi vòng chuyển của ô
+menu_delete	Xóa
+dialog_save_title	Lưu thành cài đặt sẵn
+dialog_rename_title	Đổi tên cài đặt sẵn
+dialog_name_label	Tên
+dialog_delete_title	Xóa cài đặt sẵn này?
+dialog_save	Lưu
+dialog_cancel	Hủy
+label_add_tile	Thêm ô Cài đặt nhanh
+label_allow	Thiết lập quyền truy cập
+overlay_permission_explainer	Dimmer cần quyền truy cập Hỗ trợ tiếp cận để vẽ lớp phủ làm tối lên trên mọi màn hình, kể cả thanh trạng thái. Dimmer không bao giờ đọc nội dung trên màn hình của bạn. Cho đến khi bạn cho phép, Dimmer không thể làm tối màn hình.
+accessibility_service_description	Cho phép Dimmer vẽ lớp phủ làm tối lên trên các ứng dụng khác và màn hình hệ thống mà không chặn thao tác nhấn của bạn. Dimmer không đọc hay ghi lại bất cứ thứ gì trên màn hình của bạn.
+notification_hidden_hint	Thông báo đang ẩn. Hãy tắt ở đây hoặc bằng ô Cài đặt nhanh.
+label_hybrid	Giảm cả đèn nền màn hình
+hybrid_explainer	Giảm đèn nền thật trước, sau đó làm tối thêm bằng lớp phủ.
+label_keep_awake	Giữ màn hình luôn bật khi làm tối
+label_advanced	Nâng cao
+label_backlight_method	Phương thức đèn nền
+method_auto	Tự động (khuyên dùng)
+method_window	Độ sáng cửa sổ (không cần quyền)
+method_system	Độ sáng hệ thống (cần "Sửa đổi các chế độ cài đặt hệ thống")
+method_none	Chỉ lớp phủ
+write_settings_needed	Để dùng độ sáng hệ thống, Dimmer cần quyền "Sửa đổi các chế độ cài đặt hệ thống". Khi đó, trong lúc làm tối, Dimmer sẽ tắt độ sáng tự động và giảm độ sáng hệ thống; khi kết thúc làm tối, cả hai trở lại như cũ. Trước lúc đó, Dimmer chỉ làm tối bằng lớp phủ.
+method_system_explainer	Độ sáng hệ thống: trong lúc làm tối, Dimmer tắt độ sáng tự động và giảm độ sáng hệ thống. Khi kết thúc làm tối, cả hai trở lại như cũ, trừ khi bạn tự thay đổi chúng trong lúc đó.
+label_allow_write_settings	Cho phép
+label_schedule_section	Lịch biểu
+label_schedule_enabled	Làm tối theo lịch biểu
+label_schedule_start	Bắt đầu
+label_schedule_end	Kết thúc
+schedule_kind_time	Giờ
+schedule_kind_sunset	Hoàng hôn
+schedule_kind_sunrise	Bình minh
+label_sun_offset	Độ lệch giờ mặt trời: %1$s phút
+label_fade_in	Chuyển dần
+fade_off	Tắt
+fade_minutes	%1$d phút
+label_schedule_preset	Làm tối theo
+schedule_preset_missing	Cài đặt sẵn đó đã bị xóa. Lịch biểu dùng giao diện hiện tại của bạn.
+label_resume_after_restart	Tiếp tục sau khi khởi động lại
+resume_explainer	Nếu điện thoại khởi động lại trong khung giờ đã lên lịch thì làm tối lại ngay. Tắt: lịch biểu chờ đến lần bắt đầu tiếp theo.
+schedule_today	Hôm nay: %1$s đến %2$s
+schedule_empty	Giờ bắt đầu và kết thúc trùng nhau nên lịch biểu không bao giờ chạy.
+schedule_sun_times	Hoàng hôn %1$s · bình minh %2$s
+schedule_polar_day	Hôm nay không có hoàng hôn (mặt trời nửa đêm).
+schedule_polar_night	Hôm nay không có bình minh (đêm vùng cực).
+schedule_polar_fallback	Đang dùng 21:00 đến 07:00 khi không có hoàng hôn hoặc bình minh.
+schedule_zone_used	Được tính cho múi giờ %1$s (%2$s, %3$s), không phải vị trí của bạn. Hãy dùng độ lệch nếu chưa đúng.
+schedule_zone_estimated	Múi giờ %1$s không có vị trí xác định: giờ mặt trời chỉ là ước tính. Hãy dùng độ lệch nếu chưa đúng.
+status_fading_in	Đang chuyển dần đến %1$s
+status_until	Lịch biểu · đến %1$s
+status_resumes	Tắt · lịch biểu tiếp tục lúc %1$s
+status_starts	Lịch biểu bắt đầu lúc %1$s
+day_tomorrow	ngày mai
+status_paused	Đã tạm dừng · tiếp tục lúc %1$s
+label_pause	Tạm dừng
+tile_paused	Đã tạm dừng
+pause_minutes	%1$d phút
+label_resume	Tiếp tục ngay
+label_safety_section	An toàn
+label_shake	Lắc để tắt
+shake_explainer	Lắc mạnh hai lần trong vòng một giây sẽ tắt chế độ làm tối. Tính năng hoạt động khi lớp phủ đang hiện và màn hình đang bật, kể cả trên màn hình khóa. Hãy để tính năng này bật: ở mức tối nhất, màn hình không hiển thị gì cả và lắc là cách duy nhất để thoát mà không cần nhìn.
+label_shake_sensitivity	Độ nhạy khi lắc
+shake_low	Thấp
+shake_medium	Trung bình
+shake_high	Cao
+label_controls_section	Điều khiển
+label_automation	Cho phép ứng dụng khác điều khiển Dimmer
+automation_explainer	Dành cho Tasker và các ứng dụng tương tự: gửi một broadcast với gói com.plainapps.dimmer và hành động com.plainapps.dimmer.action. kèm ON, OFF, TOGGLE, PAUSE (extra minutes), RESUME, DARKER hoặc LIGHTER (extra step), SET (extra darkness, tint, strength; chỉ đổi giao diện), PRESET (extra name) hoặc NEXT_PRESET. Khi tùy chọn này bật, mọi ứng dụng đã cài đặt đều có thể bật hoặc tắt chế độ làm tối. Trong một phút sau khi bạn tự tắt chế độ làm tối, ứng dụng khác không thể bật lại hay đổi giao diện, và DARKER không bao giờ tối hơn mức bạn đã chọn.
+widget_description	Nút nguồn và cài đặt sẵn của Dimmer
+widget_power_description	Bật hoặc tắt chế độ làm tối
+widget_on	Bật · %1$d %%
+widget_off	Tắt
+tile_look_with_darkness	%1$s · %2$d %%
+tile_presets_label	Cài đặt sẵn
+shortcut_off_short	Tắt
+shortcut_off_long	Tắt Dimmer
+shortcut_candlelight_short	Ánh nến
+shortcut_candlelight_long	Làm tối theo Ánh nến
+shortcut_deep_red_short	Đỏ đậm
+shortcut_deep_red_long	Làm tối theo Đỏ đậm
+shortcut_preset_deleted	Không tìm thấy cài đặt sẵn
+menu_add_to_home	Thêm vào màn hình chính
+label_add_widget	Thêm tiện ích vào màn hình chính
+label_add_preset_tile	Thêm ô Cài đặt nhanh: Cài đặt sẵn
+controls_hint	Ô này bật và tắt chế độ làm tối. Ô cài đặt sẵn lần lượt chuyển qua các cài đặt sẵn được đánh dấu "Đưa vào vòng chuyển của ô", rồi tắt. Nhấn và giữ một cài đặt sẵn trên màn hình chính của ứng dụng để ghim làm lối tắt.
+disclosure_title	Dimmer cần quyền truy cập Hỗ trợ tiếp cận
+disclosure_purpose	Dimmer dùng dịch vụ Hỗ trợ tiếp cận của Android cho đúng một việc: vẽ lớp phủ làm tối có màu lên trên mọi màn hình, kể cả thanh trạng thái và ngăn thông báo. Nhờ vậy màn hình có thể tối hơn mức độ sáng hệ thống cho phép, và chế độ làm tối vẫn hoạt động khi bạn chuyển ứng dụng.
+disclosure_does_title	Dimmer làm gì với quyền này
+disclosure_does	• Hiển thị lớp phủ làm tối và, nếu bạn để bật "Giảm cả đèn nền màn hình", giảm độ sáng màn hình trong khi đang làm tối.\n• Lắc để tắt (bật theo mặc định, có thể tắt): đọc cảm biến chuyển động của điện thoại khi lớp phủ đang hiện. Ánh sáng phòng (chỉ khi bạn bật): đọc cảm biến ánh sáng trong khi đang làm tối. Dữ liệu cảm biến không bao giờ rời khỏi ứng dụng.
+disclosure_never_title	Những việc Dimmer không bao giờ làm
+disclosure_never	• Không bao giờ đọc nội dung trên màn hình của bạn: không văn bản, không ứng dụng, không mật khẩu, không tin nhắn.\n• Không bao giờ theo dõi những gì bạn nhập hoặc nhấn, và không bao giờ nhấn hay nhập thay bạn.\n• Không bao giờ thu thập hay chia sẻ bất kỳ dữ liệu nào. Chế độ cài đặt của bạn chỉ nằm trên điện thoại này. Dimmer không có tài khoản, không có công cụ phân tích và không có quyền truy cập Internet.
+disclosure_android_note	Tiếp theo, Android sẽ hiện cảnh báo chung của riêng mình; cảnh báo này mô tả mọi dịch vụ hỗ trợ tiếp cận bằng cùng một nội dung. Dịch vụ của Dimmer được thiết lập để không thể đọc nội dung màn hình. Bạn có thể tắt quyền truy cập trong phần Cài đặt bất cứ lúc nào.
+disclosure_steps	Trên màn hình tiếp theo, hãy bật "Sử dụng tính năng Dimmer".
+disclosure_restricted	Nếu Android báo "Chế độ cài đặt bị hạn chế": mở "Thông tin ứng dụng", nhấn vào biểu tượng ba chấm, chọn "Cho phép các chế độ cài đặt bị hạn chế", rồi thử lại.
+disclosure_agree	Đồng ý và mở phần cài đặt
+disclosure_not_now	Để sau
+notification_alert_channel_name	Dimmer đã dừng
+stopped_title	Dimmer đã dừng
+stopped_text	Quyền truy cập Hỗ trợ tiếp cận của Dimmer đã dừng nên màn hình của bạn đã trở lại độ sáng bình thường. Nhấn để bật lại.
+label_room_section	Ánh sáng phòng
+label_ambient	Điều chỉnh theo ánh sáng phòng
+ambient_explainer	Chỉ khi đang làm tối. Trong phòng rất tối (dưới 3 lux trong 10 giây), Dimmer chuyển sang cài đặt sẵn cho phòng tối. Trong phòng sáng (trên 150 lux trong 10 giây), Dimmer tạm ngưng lớp phủ và trả lại đèn nền cho bạn cho đến khi phòng xuống dưới 80 lux. Ở giữa hai mức này, giao diện bạn đã chọn sẽ được hiển thị.
+label_dark_room_preset	Cài đặt sẵn cho phòng tối
+ambient_dark_room_missing	Cài đặt sẵn đó đã bị xóa. Trong phòng tối, Dimmer giữ giao diện bạn đã chọn.
+ambient_no_sensor	Điện thoại này không có cảm biến ánh sáng nên tùy chọn này không có tác dụng.
+status_room_bright	Phòng sáng · đã tạm ngưng làm tối
+status_room_dark	Phòng tối · đang dùng %1$s
+label_status_section	Trạng thái
+diag_accessibility_on	Quyền truy cập Hỗ trợ tiếp cận: bật
+diag_accessibility_off	Quyền truy cập Hỗ trợ tiếp cận: tắt. Dimmer không thể làm tối.
+diag_backlight_window	Đèn nền: độ sáng cửa sổ (không cần quyền)
+diag_backlight_system	Đèn nền: độ sáng hệ thống
+diag_backlight_none_hybrid_off	Đèn nền: không thay đổi ("Giảm cả đèn nền màn hình" đang tắt), chỉ lớp phủ
+diag_backlight_none	Đèn nền: chỉ lớp phủ cho đến khi "Sửa đổi các chế độ cài đặt hệ thống" được cho phép
+diag_write_ok	Sửa đổi các chế độ cài đặt hệ thống: được phép
+diag_write_off	Sửa đổi các chế độ cài đặt hệ thống: không được phép. Phương thức độ sáng hệ thống cần quyền này.
+diag_write_not_needed	Sửa đổi các chế độ cài đặt hệ thống: không được phép (phương thức hiện tại không cần)
+diag_notifications_ok	Thông báo: được phép
+diag_notifications_off	Thông báo: bị chặn. Thông báo làm tối và cảnh báo "Dimmer đã dừng" không thể hiển thị.
+diag_schedule_off	Lịch biểu: tắt
+diag_schedule_next	Lịch biểu: %1$s
+diag_fix_access	Thiết lập quyền truy cập
+diag_fix_write	Cho phép
+diag_fix_notifications	Mở phần cài đặt thông báo
+diag_recovery_title	Nếu màn hình vẫn quá tối
+diag_recovery	• Lắc điện thoại hai lần. Lắc để tắt được bật theo mặc định và cũng hoạt động trên màn hình khóa.\n• Hoặc trong thông báo của Dimmer, nhấn Tạm dừng rồi nhấn Tắt. Ô và tiện ích của Dimmer cũng có thể tắt.\n• Hoặc khởi động lại điện thoại. Nếu "Tiếp tục sau khi khởi động lại" đang bật và lịch biểu đang chạy, chế độ làm tối sẽ quay lại sau khi khởi động lại: khởi động lại, rồi lắc điện thoại hai lần.\n• Cách cuối cùng: khởi động điện thoại ở Chế độ an toàn. Chế độ này tắt mọi ứng dụng hỗ trợ tiếp cận, kể cả Dimmer.
+preset_evening	Buổi tối
+preset_reading	Đọc sách
+preset_candlelight	Ánh nến
+preset_deep_red	Đỏ đậm
+preset_ultra_dim	Siêu tối
+label_about_section	Giới thiệu
+label_privacy_policy	Chính sách quyền riêng tư
+privacy_summary	Dimmer không thu thập dữ liệu nào và không có quyền truy cập Internet. Chế độ cài đặt của bạn chỉ nằm trên điện thoại này.
+privacy_no_browser	Không có ứng dụng nào trên điện thoại này mở được đường liên kết web. Chính sách quyền riêng tư nằm tại:

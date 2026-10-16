@@ -1,0 +1,168 @@
+# Arabic (ar). Modern Standard Arabic, direct second person, as Google's Arabic UI. Android 16 terms: تسهيل الاستخدام,
+# switch «استخدام ميزة "Dimmer"», تعديل إعدادات النظام, معلومات التطبيق, الإعداد محظور / السماح بالإعدادات المحظورة,
+# الإعدادات السريعة, الوضع الآمن.
+# RTL: the strings that start with "Dimmer" or a preset name begin with U+200F (RIGHT-TO-LEFT MARK) so the line is laid
+# out right to left; percentages have no space ("45%") so the sign stays with the number, as Arabic writes it.
+notification_schedule_channel_name	حالة الجدول الزمني
+notification_title_on	‏Dimmer · %1$s · %2$d%%
+notification_paused_text	الطبقة متوقفة، وعاد سطوع شاشتك.
+notification_schedule_off_text	تم الإيقاف لهذه الليلة.
+notification_action_lighter	أفتح
+notification_action_darker	أغمق
+notification_action_pause	إيقاف مؤقت 15 د
+notification_action_resume	استئناف
+notification_action_off	إيقاف
+notification_action_turn_on	تشغيل
+label_tint	درجة اللون
+label_tint_strength	قوة درجة اللون
+tint_neutral	محايد
+tint_amber	كهرماني
+tint_candle	شمعة
+tint_red	أحمر
+label_settings	الإعدادات
+label_back	رجوع
+label_backlight_section	الإضاءة الخلفية
+label_presets	الإعدادات المسبقة
+label_custom	مخصّص
+label_save_preset	حفظ كإعداد مسبق
+presets_full	الحد الأقصى هو 8 إعدادات مسبقة. اضغط مطولاً على أحدها لحذفه.
+presets_hint	انقر للتطبيق. اضغط مطولاً لإعادة التسمية أو التحديث أو الحذف.
+preset_long_press_label	خيارات الإعداد المسبق
+menu_rename	إعادة التسمية
+menu_update_to_current	التحديث إلى القيم الحالية
+menu_add_to_cycle	التضمين في تبديل المربّع
+menu_remove_from_cycle	الإزالة من تبديل المربّع
+menu_delete	حذف
+dialog_save_title	حفظ كإعداد مسبق
+dialog_rename_title	إعادة تسمية الإعداد المسبق
+dialog_name_label	الاسم
+dialog_delete_title	هل تريد حذف هذا الإعداد المسبق؟
+dialog_save	حفظ
+dialog_cancel	إلغاء
+label_add_tile	إضافة مربّع إلى الإعدادات السريعة
+label_allow	إعداد الوصول
+overlay_permission_explainer	يحتاج Dimmer إلى إذن الوصول إلى "تسهيل الاستخدام" ليعرض طبقة التعتيم فوق كل الشاشات، بما في ذلك شريط الحالة. لا يقرأ Dimmer محتوى شاشتك أبدًا. إلى أن تسمح بذلك، لا يمكن لـ Dimmer تعتيم الشاشة.
+accessibility_service_description	تتيح لتطبيق Dimmer عرض طبقة التعتيم فوق التطبيقات الأخرى وشاشات النظام بدون أن تمنع نقراتك. لا يقرأ Dimmer أي شيء على شاشتك ولا يسجّله.
+notification_hidden_hint	الإشعار مخفي. أوقِف التعتيم من هنا أو من مربّع الإعدادات السريعة.
+label_hybrid	خفض الإضاءة الخلفية للشاشة أيضًا
+hybrid_explainer	يخفض الإضاءة الخلفية الحقيقية أولاً، ثم يزيد التعتيم بالطبقة.
+label_keep_awake	إبقاء الشاشة مفعّلة أثناء التعتيم
+label_advanced	الإعدادات المتقدمة
+label_backlight_method	طريقة الإضاءة الخلفية
+method_auto	تلقائي (مقترَح)
+method_window	سطوع النافذة (بدون إذن)
+method_system	سطوع النظام (يتطلب "تعديل إعدادات النظام")
+method_none	الطبقة فقط
+write_settings_needed	لاستخدام سطوع النظام، يحتاج Dimmer إلى إذن "تعديل إعدادات النظام". بعد ذلك، يوقف Dimmer السطوع التلقائي أثناء التعتيم ويخفض سطوع النظام، وعند انتهاء التعتيم يعود كلاهما إلى ما كانا عليه. وإلى ذلك الحين، يعتّم Dimmer بالطبقة فقط.
+method_system_explainer	سطوع النظام: أثناء التعتيم، يوقف Dimmer السطوع التلقائي ويخفض سطوع النظام. وعند انتهاء التعتيم يعود كلاهما إلى ما كانا عليه، إلا إذا غيّرتهما بنفسك في الأثناء.
+label_allow_write_settings	سماح
+label_schedule_section	الجدول الزمني
+label_schedule_enabled	التعتيم حسب جدول زمني
+label_schedule_start	البدء
+label_schedule_end	الانتهاء
+schedule_kind_time	الوقت
+schedule_kind_sunset	غروب الشمس
+schedule_kind_sunrise	شروق الشمس
+label_sun_offset	تعديل أوقات الشمس: %1$s د
+label_fade_in	التعتيم التدريجي
+fade_off	متوقف
+fade_minutes	%1$d د
+label_schedule_preset	التعتيم إلى
+schedule_preset_missing	تم حذف هذا الإعداد المسبق. يستخدم الجدول الزمني المظهر الحالي.
+label_resume_after_restart	الاستئناف بعد إعادة التشغيل
+resume_explainer	إذا أُعيد تشغيل الهاتف خلال الساعات المجدولة، يبدأ التعتيم مجددًا على الفور. عند الإيقاف: ينتظر الجدول الزمني موعد بدئه التالي.
+schedule_today	اليوم: من %1$s إلى %2$s
+schedule_empty	وقتا البدء والانتهاء متطابقان، لذلك لن يعمل الجدول الزمني أبدًا.
+schedule_sun_times	الغروب %1$s · الشروق %2$s
+schedule_polar_day	لا غروب للشمس اليوم (شمس منتصف الليل).
+schedule_polar_night	لا شروق للشمس اليوم (الليل القطبي).
+schedule_polar_fallback	يتم استخدام الفترة من 21:00 إلى 07:00 ما دام لا يوجد غروب أو شروق.
+schedule_zone_used	تم الحساب للمنطقة الزمنية %1$s (%2$s، %3$s)، وليس لموقعك. استخدِم التعديل إذا كانت الأوقات غير دقيقة.
+schedule_zone_estimated	ليس للمنطقة الزمنية %1$s موقع معروف، لذا فإن أوقات الشمس تقديرية. استخدِم التعديل إذا كانت غير دقيقة.
+status_fading_in	تعتيم تدريجي حتى %1$s
+status_until	الجدول الزمني · حتى %1$s
+status_resumes	متوقف · يُستأنف الجدول الزمني في %1$s
+status_starts	يبدأ الجدول الزمني في %1$s
+day_tomorrow	غدًا
+status_paused	متوقف مؤقتًا · الاستئناف في %1$s
+label_pause	إيقاف مؤقت
+tile_paused	متوقف مؤقتًا
+pause_minutes	%1$d د
+label_resume	الاستئناف الآن
+label_safety_section	الأمان
+label_shake	الهز للإيقاف
+shake_explainer	تؤدي هزّتان قويتان خلال ثانية واحدة إلى إيقاف التعتيم. تعمل هذه الميزة ما دامت الطبقة ظاهرة والشاشة مفعّلة، وعلى شاشة القفل أيضًا. اترك هذه الميزة مفعّلة: في أغمق الإعدادات لا تعرض الشاشة أي شيء، والهز هو المخرج الوحيد الذي يمكنك استخدامه بدون أن ترى.
+label_shake_sensitivity	حساسية الهز
+shake_low	منخفضة
+shake_medium	متوسطة
+shake_high	عالية
+label_controls_section	عناصر التحكم
+label_automation	السماح للتطبيقات الأخرى بالتحكم في Dimmer
+automation_explainer	لتطبيق Tasker والتطبيقات المشابهة: أرسِل بثًا (broadcast) مع الحزمة com.plainapps.dimmer والإجراء com.plainapps.dimmer.action. مضافًا إليه ON أو OFF أو TOGGLE أو PAUSE (extra minutes) أو RESUME أو DARKER أو LIGHTER (extra step) أو SET (extras darkness وtint وstrength؛ تغيّر المظهر فقط) أو PRESET (extra name) أو NEXT_PRESET. ما دام هذا الخيار مفعّلاً، يمكن لأي تطبيق مثبَّت تشغيل التعتيم أو إيقافه. خلال دقيقة واحدة بعد أن توقف التعتيم بنفسك، لا يمكن للتطبيقات الأخرى إعادة تشغيله أو تغيير المظهر، ولا يتجاوز DARKER أبدًا درجة العتمة التي اخترتها.
+widget_description	زر التشغيل والإعدادات المسبقة لتطبيق Dimmer
+widget_power_description	تشغيل التعتيم أو إيقافه
+widget_on	مفعّل · %1$d%%
+widget_off	متوقف
+tile_look_with_darkness	‏%1$s · %2$d%%
+tile_presets_label	إعدادات مسبقة
+shortcut_off_short	إيقاف
+shortcut_off_long	إيقاف Dimmer
+shortcut_candlelight_short	ضوء الشموع
+shortcut_candlelight_long	التعتيم إلى ضوء الشموع
+shortcut_deep_red_short	أحمر داكن
+shortcut_deep_red_long	التعتيم إلى أحمر داكن
+shortcut_preset_deleted	لم يتم العثور على الإعداد المسبق
+menu_add_to_home	إضافة إلى الشاشة الرئيسية
+label_add_widget	إضافة أداة إلى الشاشة الرئيسية
+label_add_preset_tile	إضافة مربّع إلى الإعدادات السريعة: إعدادات مسبقة
+controls_hint	يشغّل المربّع التعتيم ويوقفه. ينتقل مربّع الإعدادات المسبقة بالترتيب بين الإعدادات المسبقة التي عليها علامة "التضمين في تبديل المربّع"، ثم يوقف التعتيم. اضغط مطولاً على إعداد مسبق في الشاشة الرئيسية للتطبيق لتثبيته كاختصار.
+disclosure_title	يحتاج Dimmer إلى إذن الوصول إلى "تسهيل الاستخدام"
+disclosure_purpose	يستخدم Dimmer خدمة "تسهيل الاستخدام" في Android لمهمة واحدة فقط: عرض طبقة التعتيم الداكنة الملوّنة فوق كل الشاشات، بما في ذلك شريط الحالة ولوحة الإشعارات. بهذه الطريقة وحدها يمكنه جعل الشاشة أغمق مما يسمح به سطوع النظام، ولهذا يستمر في العمل عند التبديل بين التطبيقات.
+disclosure_does_title	ما يفعله Dimmer بهذا الإذن
+disclosure_does	• يعرض طبقة التعتيم، وإذا تركت خيار "خفض الإضاءة الخلفية للشاشة أيضًا" مفعّلاً، يخفض سطوع الشاشة ما دام التعتيم مفعّلاً.\n• الهز للإيقاف (مفعّل تلقائيًا، ويمكن إيقافه): يقرأ مستشعر الحركة في الهاتف ما دامت الطبقة ظاهرة. إضاءة الغرفة (فقط إذا فعّلتها): يقرأ مستشعر الضوء ما دام التعتيم مفعّلاً. لا تغادر قراءات المستشعرات التطبيق أبدًا.
+disclosure_never_title	ما لا يفعله Dimmer أبدًا
+disclosure_never	• لا يقرأ أبدًا ما يظهر على شاشتك: لا نصوص ولا تطبيقات ولا كلمات مرور ولا رسائل.\n• لا يراقب أبدًا ما تكتبه أو تنقر عليه، ولا ينقر أو يكتب بدلاً منك أبدًا.\n• لا يجمع أي بيانات ولا يشاركها أبدًا. تبقى إعداداتك على هذا الهاتف. لا يحتوي Dimmer على حسابات ولا أدوات تحليل ولا إذن بالوصول إلى الإنترنت.
+disclosure_android_note	سيعرض Android بعد ذلك تحذيره العام الخاص، وهو يصف كل خدمات "تسهيل الاستخدام" بالكلمات نفسها. تم إعداد خدمة Dimmer بحيث لا يمكنها قراءة محتوى الشاشة. يمكنك إيقاف الوصول من الإعدادات في أي وقت.
+disclosure_steps	في الشاشة التالية، فعِّل «استخدام ميزة "Dimmer"».
+disclosure_restricted	إذا ظهرت رسالة "الإعداد محظور" من Android: افتح "معلومات التطبيق"، وانقر على رمز النقاط الثلاث، واختر "السماح بالإعدادات المحظورة"، ثم أعِد المحاولة.
+disclosure_agree	الموافقة وفتح الإعدادات
+disclosure_not_now	ليس الآن
+notification_alert_channel_name	توقف Dimmer
+stopped_title	توقف Dimmer
+stopped_text	توقف إذن الوصول إلى "تسهيل الاستخدام" الخاص بتطبيق Dimmer، لذلك عادت شاشتك إلى السطوع العادي. انقر لتفعيله مجددًا.
+label_room_section	إضاءة الغرفة
+label_ambient	التكيّف مع إضاءة الغرفة
+ambient_explainer	فقط أثناء التعتيم. في الغرفة المظلمة جدًا (أقل من 3 لوكس لمدة 10 ثوانٍ) ينتقل Dimmer إلى الإعداد المسبق للغرفة المظلمة. وفي الغرفة المضيئة (أكثر من 150 لوكس لمدة 10 ثوانٍ) يعلّق الطبقة ويعيد إليك الإضاءة الخلفية إلى أن تنخفض إضاءة الغرفة عن 80 لوكس. وفيما بين ذلك، يعرض المظهر الذي اخترته.
+label_dark_room_preset	الإعداد المسبق للغرفة المظلمة
+ambient_dark_room_missing	تم حذف هذا الإعداد المسبق. في الغرفة المظلمة، يحتفظ Dimmer بالمظهر الذي اخترته.
+ambient_no_sensor	لا يحتوي هذا الهاتف على مستشعر ضوء، لذلك لا تأثير لهذا الخيار.
+status_room_bright	غرفة مضيئة · التعتيم معلّق
+status_room_dark	غرفة مظلمة · يتم استخدام %1$s
+label_status_section	الحالة
+diag_accessibility_on	إذن الوصول إلى "تسهيل الاستخدام": مفعّل
+diag_accessibility_off	إذن الوصول إلى "تسهيل الاستخدام": متوقف. لا يمكن لـ Dimmer التعتيم.
+diag_backlight_window	الإضاءة الخلفية: سطوع النافذة (بدون إذن)
+diag_backlight_system	الإضاءة الخلفية: سطوع النظام
+diag_backlight_none_hybrid_off	الإضاءة الخلفية: بلا تغيير (خيار "خفض الإضاءة الخلفية للشاشة أيضًا" متوقف)، الطبقة فقط
+diag_backlight_none	الإضاءة الخلفية: الطبقة فقط إلى أن يتم السماح بـ "تعديل إعدادات النظام"
+diag_write_ok	تعديل إعدادات النظام: مسموح به
+diag_write_off	تعديل إعدادات النظام: غير مسموح به. تحتاج طريقة سطوع النظام إلى هذا الإذن.
+diag_write_not_needed	تعديل إعدادات النظام: غير مسموح به (لا تحتاج إليه الطريقة الحالية)
+diag_notifications_ok	الإشعارات: مسموح بها
+diag_notifications_off	الإشعارات: محظورة. لا يمكن أن يظهر إشعار التعتيم ولا تنبيه "توقف Dimmer".
+diag_schedule_off	الجدول الزمني: متوقف
+diag_schedule_next	الجدول الزمني: %1$s
+diag_fix_access	إعداد الوصول
+diag_fix_write	سماح
+diag_fix_notifications	فتح إعدادات الإشعارات
+diag_recovery_title	إذا بقيت الشاشة معتمة أكثر من اللازم
+diag_recovery	• هُزّ الهاتف مرتين. ميزة "الهز للإيقاف" مفعّلة تلقائيًا وتعمل على شاشة القفل أيضًا.\n• أو انقر في إشعار Dimmer على "إيقاف مؤقت" ثم على "إيقاف". يمكنك الإيقاف أيضًا من مربّع Dimmer والأداة.\n• أو أعِد تشغيل الهاتف. إذا كان خيار "الاستئناف بعد إعادة التشغيل" مفعّلاً والجدول الزمني قيد التشغيل، يعود التعتيم بعد إعادة التشغيل: أعِد التشغيل، ثم هُزّ الهاتف مرتين.\n• الحل الأخير: شغِّل الهاتف في الوضع الآمن. يوقف هذا الوضع كل تطبيقات "تسهيل الاستخدام"، بما فيها Dimmer.
+preset_evening	المساء
+preset_reading	القراءة
+preset_candlelight	ضوء الشموع
+preset_deep_red	أحمر داكن
+preset_ultra_dim	خافت جدًا
+label_about_section	حول التطبيق
+label_privacy_policy	سياسة الخصوصية
+privacy_summary	لا يجمع Dimmer أي بيانات وليس لديه إذن بالوصول إلى الإنترنت. تبقى إعداداتك على هذا الهاتف.
+privacy_no_browser	لا يوجد على هذا الهاتف تطبيق يمكنه فتح روابط الويب. سياسة الخصوصية متوفّرة على العنوان:

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Home-screen widget palette: always a dark, low-glare look (the app is for dark rooms). -->
+    <color name="widget_bg">#FF1C1B1F</color>
+    <color name="widget_button">#FF34313A</color>
+    <color name="widget_active">#FFFFB74D</color>
+    <color name="widget_ripple">#33FFFFFF</color>
+    <color name="widget_text">#FFE6E1E5</color>
+    <color name="widget_text_dim">#B3E6E1E5</color>
+    <color name="widget_button_text">#FFE6E1E5</color>
+    <color name="widget_button_text_active">#FF2B1700</color>
+    <color name="widget_power_on">#FF2B1700</color>
+    <color name="widget_power_off">#FFE6E1E5</color>
+</resources>

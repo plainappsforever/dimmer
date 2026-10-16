@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v3.1 (REVIEW_V3 finding 9), Android 12+: same rule as backup_rules.xml for cloud backup and
+     device-to-device transfer. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="backlight_journal.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="backlight_journal.xml" />
+    </device-transfer>
+</data-extraction-rules>

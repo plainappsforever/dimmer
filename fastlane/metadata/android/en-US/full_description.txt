@@ -1,0 +1,33 @@
+Dimmer makes your phone darker than its own brightness slider allows, for use in bed or in a dark room.
+
+One slider, one scale. The first part lowers the real screen backlight to its minimum. The rest adds a dark layer on top, up to completely black. The layer also covers the status bar and the notification shade.
+
+WHAT YOU GET
+• Presets: Evening, Reading, Candlelight, Deep red and Ultra dim. Edit them or save your own (up to 8).
+• Four tints (Neutral, Amber, Candle, Red) with adjustable strength.
+• Schedule: dim at a clock time or at sunset, fade in slowly, end at a clock time or at sunrise. Sunset is worked out from your time zone, so Dimmer needs no location permission.
+• Pause for 15, 30 or 60 minutes.
+• Home-screen widget, two Quick Settings tiles, app shortcuts, and a quiet notification with Lighter, Darker and Pause.
+• Optional extras, all off until you switch them on: adjust to room light (light sensor), keep the screen awake while dimming, let Tasker and similar apps control Dimmer.
+• No ads, no account, no analytics and no internet permission. Everything stays on your phone.
+• Available in 15 languages.
+
+WHY DIMMER ASKS FOR ACCESSIBILITY ACCESS
+Dimmer uses Android's Accessibility service for one job: to draw its dimming layer above all other screens, including the status bar and the notification shade. Dimmer does not read or record what is on your screen, does not see what you type or tap, and never taps for you. Android shows the same general warning for every accessibility service; Dimmer's service is set up so it cannot retrieve screen content. Before anything opens, the app shows a full explanation and asks for your consent. Dimmer is not an assistive tool for people with disabilities. It is a screen dimmer that needs this access to draw over system screens.
+
+HOW TO TURN DIMMING OFF
+• Tap the Dimmer tile in Quick Settings, or the widget.
+• In the notification, tap Pause, then Off.
+• Open the app and switch dimming off.
+• Shake the phone twice (on by default; you can switch it off in Settings).
+• Turn off "Use Dimmer" in Settings > Accessibility. The layer disappears at once.
+• Restart the phone. Dimming is off after a restart unless you switched on "Resume after restart" for your schedule; then restart and shake the phone twice.
+At the darkest setting the screen is completely black, with no text visible. If that happens, shake the phone twice, or restart the phone (if "Resume after restart" is on: restart, then shake).
+
+GOOD TO KNOW
+• Some phone makers' battery savers switch accessibility services off. Dimmer then shows a "Dimmer stopped" notice and the screen returns to normal.
+• Brightness behaviour differs between phone models.
+• Android's optional Advanced Protection mode blocks accessibility access for apps like Dimmer.
+• Dimmer makes no medical claims and is not a medical product.
+
+Questions or problems: write to the developer email shown on this page.

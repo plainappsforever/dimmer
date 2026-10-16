@@ -1,0 +1,166 @@
+# German (de). Informal "du", as in the store listing. Android terms as Android 16 names them (Settings/framework
+# resources of the emulator image): Bedienungshilfen, "Dimmer verwenden", Systemeinstellungen ändern, App-Info,
+# Eingeschränkte Einstellung / Eingeschränkte Einstellungen zulassen, Schnelleinstellungen, Abgesicherter Modus.
+notification_schedule_channel_name	Zeitplan-Status
+notification_title_on	Dimmer · %1$s · %2$d %%
+notification_paused_text	Schicht aus, deine Helligkeit ist zurück.
+notification_schedule_off_text	Für heute Abend ausgeschaltet.
+notification_action_lighter	Heller
+notification_action_darker	Dunkler
+notification_action_pause	Pause 15 Min.
+notification_action_resume	Fortsetzen
+notification_action_off	Aus
+notification_action_turn_on	Einschalten
+label_tint	Farbton
+label_tint_strength	Stärke des Farbtons
+tint_neutral	Neutral
+tint_amber	Bernstein
+tint_candle	Kerze
+tint_red	Rot
+label_settings	Einstellungen
+label_back	Zurück
+label_backlight_section	Hintergrundbeleuchtung
+label_presets	Voreinstellungen
+label_custom	Benutzerdefiniert
+label_save_preset	Als Voreinstellung speichern
+presets_full	Höchstens 8 Voreinstellungen sind möglich. Halte eine gedrückt, um sie zu löschen.
+presets_hint	Tippen zum Anwenden. Gedrückt halten zum Umbenennen, Aktualisieren oder Löschen.
+preset_long_press_label	Optionen der Voreinstellung
+menu_rename	Umbenennen
+menu_update_to_current	Auf aktuelle Werte setzen
+menu_add_to_cycle	In den Kachel-Durchlauf aufnehmen
+menu_remove_from_cycle	Aus dem Kachel-Durchlauf entfernen
+menu_delete	Löschen
+dialog_save_title	Als Voreinstellung speichern
+dialog_rename_title	Voreinstellung umbenennen
+dialog_name_label	Name
+dialog_delete_title	Diese Voreinstellung löschen?
+dialog_save	Speichern
+dialog_cancel	Abbrechen
+label_add_tile	Schnelleinstellungs-Kachel hinzufügen
+label_allow	Zugriff einrichten
+overlay_permission_explainer	Dimmer braucht Zugriff auf die Bedienungshilfen, um seine Abdunkelungsschicht über jeden Bildschirm zu legen, auch über die Statusleiste. Dimmer liest nie deine Bildschirminhalte. Solange du den Zugriff nicht erlaubst, kann Dimmer den Bildschirm nicht abdunkeln.
+accessibility_service_description	Damit kann Dimmer seine Abdunkelungsschicht über andere Apps und Systembildschirme legen, ohne deine Eingaben zu blockieren. Dimmer liest und speichert nichts von deinem Bildschirm.
+notification_hidden_hint	Benachrichtigung ausgeblendet. Schalte hier oder mit der Kachel in den Schnelleinstellungen aus.
+label_hybrid	Auch die Hintergrundbeleuchtung senken
+hybrid_explainer	Senkt zuerst die echte Hintergrundbeleuchtung und dunkelt dann mit der Schicht weiter ab.
+label_keep_awake	Bildschirm beim Abdunkeln anlassen
+label_advanced	Erweitert
+label_backlight_method	Methode für die Beleuchtung
+method_auto	Automatisch (empfohlen)
+method_window	Fenster-Helligkeit (keine Berechtigung)
+method_system	System-Helligkeit (braucht „Systemeinstellungen ändern“)
+method_none	Nur die Schicht
+write_settings_needed	Für die System-Helligkeit braucht Dimmer „Systemeinstellungen ändern“. Beim Abdunkeln schaltet Dimmer dann die automatische Helligkeit aus und senkt die System-Helligkeit; wenn das Abdunkeln endet, ist beides wieder wie vorher. Bis dahin dunkelt Dimmer nur mit der Schicht ab.
+method_system_explainer	System-Helligkeit: Beim Abdunkeln schaltet Dimmer die automatische Helligkeit aus und senkt die System-Helligkeit. Wenn das Abdunkeln endet, ist beides wieder wie vorher, außer du hast es in der Zwischenzeit selbst geändert.
+label_allow_write_settings	Erlauben
+label_schedule_section	Zeitplan
+label_schedule_enabled	Nach Zeitplan abdunkeln
+label_schedule_start	Beginn
+label_schedule_end	Ende
+schedule_kind_time	Uhrzeit
+schedule_kind_sunset	Sonnenuntergang
+schedule_kind_sunrise	Sonnenaufgang
+label_sun_offset	Verschiebung der Sonnenzeiten: %1$s Min.
+label_fade_in	Einblenden
+fade_off	Aus
+fade_minutes	%1$d Min.
+label_schedule_preset	Abdunkeln auf
+schedule_preset_missing	Diese Voreinstellung wurde gelöscht. Der Zeitplan nimmt deine aktuelle Einstellung.
+label_resume_after_restart	Nach Neustart fortsetzen
+resume_explainer	Startet das Handy während der geplanten Zeit neu, wird sofort wieder abgedunkelt. Aus: Der Zeitplan wartet auf seinen nächsten Beginn.
+schedule_today	Heute: %1$s bis %2$s
+schedule_empty	Beginn und Ende sind gleich, deshalb läuft der Zeitplan nie.
+schedule_sun_times	Sonnenuntergang %1$s · Sonnenaufgang %2$s
+schedule_polar_day	Heute kein Sonnenuntergang (Mitternachtssonne).
+schedule_polar_night	Heute kein Sonnenaufgang (Polarnacht).
+schedule_polar_fallback	Solange es keinen Sonnenuntergang oder -aufgang gibt: 21:00 bis 07:00.
+schedule_zone_used	Berechnet für die Zeitzone %1$s (%2$s, %3$s), nicht für deinen Standort. Stimmt es nicht, nimm die Verschiebung.
+schedule_zone_estimated	Für die Zeitzone %1$s ist kein Ort bekannt: Die Sonnenzeiten sind geschätzt. Stimmen sie nicht, nimm die Verschiebung.
+status_fading_in	Wird eingeblendet bis %1$s
+status_until	Zeitplan · bis %1$s
+status_resumes	Aus · Zeitplan geht weiter um %1$s
+status_starts	Zeitplan beginnt um %1$s
+day_tomorrow	morgen
+status_paused	Pausiert · weiter um %1$s
+label_pause	Pause
+tile_paused	Pausiert
+pause_minutes	%1$d Min.
+label_resume	Jetzt fortsetzen
+label_safety_section	Sicherheit
+label_shake	Schütteln zum Ausschalten
+shake_explainer	Zweimal kräftig schütteln innerhalb einer Sekunde schaltet das Abdunkeln aus. Funktioniert, solange die Schicht zu sehen und der Bildschirm an ist, auch auf dem Sperrbildschirm. Lass das an: In den dunkelsten Stufen zeigt der Bildschirm nichts mehr, und Schütteln ist dann der einzige Ausweg, für den du nichts sehen musst.
+label_shake_sensitivity	Empfindlichkeit
+shake_low	Niedrig
+shake_medium	Mittel
+shake_high	Hoch
+label_controls_section	Steuerung
+label_automation	Andere Apps dürfen Dimmer steuern
+automation_explainer	Für Tasker und ähnliche Apps: Sende einen Broadcast mit dem Paket com.plainapps.dimmer und der Aktion com.plainapps.dimmer.action. plus ON, OFF, TOGGLE, PAUSE (Extra minutes), RESUME, DARKER oder LIGHTER (Extra step), SET (Extras darkness, tint, strength; ändert nur das Aussehen), PRESET (Extra name) oder NEXT_PRESET. Solange das an ist, kann jede installierte App den Dimmer schalten. Eine Minute, nachdem du das Abdunkeln selbst ausgeschaltet hast, können andere Apps es nicht wieder einschalten oder das Aussehen ändern, und DARKER geht nie über die von dir gewählte Dunkelheit hinaus.
+widget_description	Ein/Aus-Taste und Voreinstellungen für Dimmer
+widget_power_description	Abdunkeln ein- oder ausschalten
+widget_on	An · %1$d %%
+widget_off	Aus
+tile_look_with_darkness	%1$s · %2$d %%
+tile_presets_label	Dimm-Stufen
+shortcut_off_short	Ausschalten
+shortcut_off_long	Dimmer ausschalten
+shortcut_candlelight_short	Kerzenlicht
+shortcut_candlelight_long	Auf Kerzenlicht abdunkeln
+shortcut_deep_red_short	Tiefrot
+shortcut_deep_red_long	Auf Tiefrot abdunkeln
+shortcut_preset_deleted	Voreinstellung nicht gefunden
+menu_add_to_home	Zum Startbildschirm hinzufügen
+label_add_widget	Widget zum Startbildschirm hinzufügen
+label_add_preset_tile	Schnelleinstellungs-Kachel hinzufügen: Dimm-Stufen
+controls_hint	Die Kachel schaltet das Abdunkeln ein und aus. Die Voreinstellungs-Kachel geht der Reihe nach durch die Voreinstellungen mit „In den Kachel-Durchlauf aufnehmen“ und schaltet danach aus. Halte auf dem Startbildschirm der App eine Voreinstellung gedrückt, um sie als Verknüpfung anzuheften.
+disclosure_title	Dimmer braucht Zugriff auf die Bedienungshilfen
+disclosure_purpose	Dimmer nutzt den Bedienungshilfen-Dienst von Android für genau eine Aufgabe: Er legt die dunkle, getönte Abdunkelungsschicht über jeden Bildschirm, auch über die Statusleiste und die Benachrichtigungsleiste. Nur so kann der Bildschirm dunkler werden, als deine System-Helligkeit erlaubt, und nur so bleibt er dunkel, wenn du die App wechselst.
+disclosure_does_title	Was Dimmer damit macht
+disclosure_does	• Zeigt die Abdunkelungsschicht und senkt, wenn „Auch die Hintergrundbeleuchtung senken“ an bleibt, die Bildschirmhelligkeit, solange abgedunkelt wird.\n• Schütteln zum Ausschalten (standardmäßig an, abschaltbar): liest den Bewegungssensor des Handys, solange die Schicht zu sehen ist. Raumlicht (nur wenn du es einschaltest): liest den Lichtsensor, solange abgedunkelt wird. Sensorwerte verlassen die App nie.
+disclosure_never_title	Was Dimmer nie macht
+disclosure_never	• Dimmer liest nie, was auf deinem Bildschirm steht: keine Texte, keine Apps, keine Passwörter, keine Nachrichten.\n• Dimmer beobachtet nie, was du tippst oder berührst, und tippt oder schreibt nie für dich.\n• Dimmer erhebt und teilt keine Daten. Deine Einstellungen bleiben auf diesem Handy. Dimmer hat kein Konto, keine Analyse und keine Internetberechtigung.
+disclosure_android_note	Android zeigt als Nächstes eine eigene, allgemeine Warnung; sie beschreibt jeden Bedienungshilfen-Dienst mit denselben Worten. Der Dienst von Dimmer ist so eingerichtet, dass er keine Bildschirminhalte lesen kann. Du kannst den Zugriff jederzeit in den Einstellungen wieder ausschalten.
+disclosure_steps	Schalte auf dem nächsten Bildschirm „Dimmer verwenden“ ein.
+disclosure_restricted	Wenn Android „Eingeschränkte Einstellung“ meldet: Öffne „App-Info“, tippe oben rechts auf die drei Punkte, wähle „Eingeschränkte Einstellungen zulassen“ und versuche es noch einmal.
+disclosure_agree	Zustimmen und Einstellungen öffnen
+disclosure_not_now	Nicht jetzt
+notification_alert_channel_name	Dimmer wurde angehalten
+stopped_title	Dimmer wurde angehalten
+stopped_text	Der Bedienungshilfen-Zugriff von Dimmer wurde beendet, dein Bildschirm hat wieder die normale Helligkeit. Tippe, um ihn wieder einzuschalten.
+label_room_section	Raumlicht
+label_ambient	An das Raumlicht anpassen
+ambient_explainer	Nur während abgedunkelt wird. In einem sehr dunklen Raum (unter 3 Lux für 10 Sekunden) wechselt Dimmer zur Voreinstellung für dunkle Räume. In einem hellen Raum (über 150 Lux für 10 Sekunden) setzt Dimmer die Schicht aus und gibt dir die Beleuchtung zurück, bis der Raum unter 80 Lux fällt. Dazwischen siehst du deine gewählte Einstellung.
+label_dark_room_preset	Voreinstellung für dunkle Räume
+ambient_dark_room_missing	Diese Voreinstellung wurde gelöscht. Im dunklen Raum bleibt Dimmer bei deiner gewählten Einstellung.
+ambient_no_sensor	Dieses Handy hat keinen Lichtsensor, deshalb bewirkt das nichts.
+status_room_bright	Heller Raum · Abdunkeln ausgesetzt
+status_room_dark	Dunkler Raum · mit %1$s
+label_status_section	Status
+diag_accessibility_on	Bedienungshilfen-Zugriff: an
+diag_accessibility_off	Bedienungshilfen-Zugriff: aus. Dimmer kann nicht abdunkeln.
+diag_backlight_window	Beleuchtung: Fenster-Helligkeit (keine Berechtigung nötig)
+diag_backlight_system	Beleuchtung: System-Helligkeit
+diag_backlight_none_hybrid_off	Beleuchtung: unverändert („Auch die Hintergrundbeleuchtung senken“ ist aus), nur die Schicht
+diag_backlight_none	Beleuchtung: nur die Schicht, bis „Systemeinstellungen ändern“ erlaubt ist
+diag_write_ok	Systemeinstellungen ändern: erlaubt
+diag_write_off	Systemeinstellungen ändern: nicht erlaubt. Die Methode System-Helligkeit braucht das.
+diag_write_not_needed	Systemeinstellungen ändern: nicht erlaubt (für die aktuelle Methode nicht nötig)
+diag_notifications_ok	Benachrichtigungen: erlaubt
+diag_notifications_off	Benachrichtigungen: blockiert. Die Benachrichtigung beim Abdunkeln und der Hinweis „Dimmer wurde angehalten“ können nicht erscheinen.
+diag_schedule_off	Zeitplan: aus
+diag_schedule_next	Zeitplan: %1$s
+diag_fix_access	Zugriff einrichten
+diag_fix_write	Erlauben
+diag_fix_notifications	Benachrichtigungseinstellungen öffnen
+diag_recovery_title	Falls der Bildschirm einmal zu dunkel bleibt
+diag_recovery	• Schüttle das Handy zweimal. Schütteln zum Ausschalten ist standardmäßig an und funktioniert auch auf dem Sperrbildschirm.\n• Oder tippe in der Dimmer-Benachrichtigung auf Pause und dann auf Aus. Auch die Dimmer-Kachel und das Widget schalten aus.\n• Oder starte das Handy neu. Ist „Nach Neustart fortsetzen“ an und läuft der Zeitplan, wird nach dem Neustart wieder abgedunkelt: neu starten, dann das Handy zweimal schütteln.\n• Letzter Ausweg: Starte das Handy im abgesicherten Modus. Er schaltet alle Bedienungshilfen-Apps aus, auch Dimmer.
+preset_evening	Abend
+preset_reading	Lesen
+preset_candlelight	Kerzenlicht
+preset_deep_red	Tiefrot
+preset_ultra_dim	Ultra dunkel
+label_about_section	Über Dimmer
+label_privacy_policy	Datenschutzerklärung
+privacy_summary	Dimmer erhebt keine Daten und hat keine Internetberechtigung. Deine Einstellungen bleiben auf diesem Handy.
+privacy_no_browser	Auf diesem Handy kann keine App Weblinks öffnen. Die Datenschutzerklärung findest du unter:

@@ -1,0 +1,166 @@
+# French (fr). "vous", as Google's French UI; non-breaking spaces before : ; ? ! and inside « ». Android 16 terms:
+# Accessibilité, « Utiliser Dimmer », Modifier les paramètres système, Infos sur l'appli, Paramètre restreint /
+# Autoriser les paramètres restreints, Réglages rapides, Mode sécurisé.
+notification_schedule_channel_name	État de la programmation
+notification_title_on	Dimmer · %1$s · %2$d %%
+notification_paused_text	Calque désactivé, votre luminosité est revenue.
+notification_schedule_off_text	Désactivé pour ce soir.
+notification_action_lighter	Plus clair
+notification_action_darker	Plus sombre
+notification_action_pause	Pause 15 min
+notification_action_resume	Reprendre
+notification_action_off	Désactiver
+notification_action_turn_on	Activer
+label_tint	Teinte
+label_tint_strength	Intensité de la teinte
+tint_neutral	Neutre
+tint_amber	Ambre
+tint_candle	Bougie
+tint_red	Rouge
+label_settings	Paramètres
+label_back	Retour
+label_backlight_section	Rétroéclairage
+label_presets	Préréglages
+label_custom	Personnalisé
+label_save_preset	Enregistrer comme préréglage
+presets_full	8 préréglages au maximum. Appuyez de manière prolongée sur l'un d'eux pour le supprimer.
+presets_hint	Appuyez pour appliquer. Appui prolongé pour renommer, mettre à jour ou supprimer.
+preset_long_press_label	Options du préréglage
+menu_rename	Renommer
+menu_update_to_current	Mettre à jour avec les valeurs actuelles
+menu_add_to_cycle	Inclure dans le cycle du bloc
+menu_remove_from_cycle	Retirer du cycle du bloc
+menu_delete	Supprimer
+dialog_save_title	Enregistrer comme préréglage
+dialog_rename_title	Renommer le préréglage
+dialog_name_label	Nom
+dialog_delete_title	Supprimer ce préréglage ?
+dialog_save	Enregistrer
+dialog_cancel	Annuler
+label_add_tile	Ajouter un bloc aux Réglages rapides
+label_allow	Configurer l'accès
+overlay_permission_explainer	Dimmer a besoin de l'accès Accessibilité pour afficher son calque d'assombrissement au-dessus de tous les écrans, barre d'état comprise. Dimmer ne lit jamais le contenu de votre écran. Tant que vous ne l'autorisez pas, Dimmer ne peut pas assombrir l'écran.
+accessibility_service_description	Permet à Dimmer d'afficher son calque d'assombrissement au-dessus des autres applications et des écrans système, sans bloquer vos appuis. Dimmer ne lit et n'enregistre rien de ce qui est à l'écran.
+notification_hidden_hint	Notification masquée. Désactivez ici ou avec le bloc des Réglages rapides.
+label_hybrid	Baisser aussi le rétroéclairage
+hybrid_explainer	Baisse d'abord le vrai rétroéclairage, puis assombrit davantage avec le calque.
+label_keep_awake	Garder l'écran allumé pendant l'assombrissement
+label_advanced	Avancé
+label_backlight_method	Méthode de rétroéclairage
+method_auto	Automatique (recommandé)
+method_window	Luminosité de la fenêtre (sans autorisation)
+method_system	Luminosité du système (nécessite « Modifier les paramètres système »)
+method_none	Calque uniquement
+write_settings_needed	Pour la luminosité du système, Dimmer a besoin de « Modifier les paramètres système ». Pendant l'assombrissement, Dimmer désactive alors la luminosité automatique et baisse la luminosité du système ; à la fin, les deux reviennent comme avant. D'ici là, Dimmer assombrit uniquement avec le calque.
+method_system_explainer	Luminosité du système : pendant l'assombrissement, Dimmer désactive la luminosité automatique et baisse la luminosité du système. À la fin, les deux reviennent comme avant, sauf si vous les avez modifiées entre-temps.
+label_allow_write_settings	Autoriser
+label_schedule_section	Programmation
+label_schedule_enabled	Assombrir selon une programmation
+label_schedule_start	Début
+label_schedule_end	Fin
+schedule_kind_time	Heure
+schedule_kind_sunset	Coucher du soleil
+schedule_kind_sunrise	Lever du soleil
+label_sun_offset	Décalage des heures solaires : %1$s min
+label_fade_in	Transition
+fade_off	Désactivée
+fade_minutes	%1$d min
+label_schedule_preset	Assombrir avec
+schedule_preset_missing	Ce préréglage a été supprimé. La programmation utilise votre réglage actuel.
+label_resume_after_restart	Reprendre après redémarrage
+resume_explainer	Si le téléphone redémarre pendant les heures programmées, l'assombrissement reprend aussitôt. Désactivé : la programmation attend son prochain début.
+schedule_today	Aujourd'hui : de %1$s à %2$s
+schedule_empty	Le début et la fin sont à la même heure : la programmation ne s'exécute jamais.
+schedule_sun_times	Coucher %1$s · lever %2$s
+schedule_polar_day	Pas de coucher du soleil aujourd'hui (soleil de minuit).
+schedule_polar_night	Pas de lever du soleil aujourd'hui (nuit polaire).
+schedule_polar_fallback	De 21:00 à 07:00 tant qu'il n'y a ni coucher ni lever du soleil.
+schedule_zone_used	Calculé pour le fuseau horaire %1$s (%2$s, %3$s), pas pour votre position. Utilisez le décalage si ce n'est pas juste.
+schedule_zone_estimated	Le fuseau horaire %1$s n'a pas de position connue : les heures solaires sont estimées. Utilisez le décalage si elles ne sont pas justes.
+status_fading_in	Transition jusqu'à %1$s
+status_until	Programmation · jusqu'à %1$s
+status_resumes	Désactivé · la programmation reprend à %1$s
+status_starts	La programmation commence à %1$s
+day_tomorrow	demain
+status_paused	En pause · reprise à %1$s
+label_pause	Pause
+tile_paused	En pause
+pause_minutes	%1$d min
+label_resume	Reprendre maintenant
+label_safety_section	Sécurité
+label_shake	Secouer pour désactiver
+shake_explainer	Deux secousses fortes en une seconde désactivent l'assombrissement. Fonctionne tant que le calque est visible et l'écran allumé, y compris sur l'écran de verrouillage. Laissez cette option activée : aux réglages les plus sombres, l'écran n'affiche plus rien, et secouer est la seule sortie possible sans rien voir.
+label_shake_sensitivity	Sensibilité
+shake_low	Faible
+shake_medium	Moyenne
+shake_high	Élevée
+label_controls_section	Commandes
+label_automation	Autoriser d'autres applications à contrôler Dimmer
+automation_explainer	Pour Tasker et les applications similaires : envoyez un broadcast avec le package com.plainapps.dimmer et l'action com.plainapps.dimmer.action. suivie de ON, OFF, TOGGLE, PAUSE (extra minutes), RESUME, DARKER ou LIGHTER (extra step), SET (extras darkness, tint, strength ; ne change que l'apparence), PRESET (extra name) ou NEXT_PRESET. Tant que cette option est activée, n'importe quelle application installée peut allumer ou éteindre l'assombrissement. Pendant une minute après que vous avez vous-même désactivé l'assombrissement, les autres applications ne peuvent ni le réactiver ni changer l'apparence, et DARKER ne dépasse jamais l'obscurité que vous avez choisie.
+widget_description	Bouton marche/arrêt et préréglages de Dimmer
+widget_power_description	Activer ou désactiver l'assombrissement
+widget_on	Activé · %1$d %%
+widget_off	Désactivé
+tile_look_with_darkness	%1$s · %2$d %%
+tile_presets_label	Préréglages
+shortcut_off_short	Désactiver
+shortcut_off_long	Désactiver Dimmer
+shortcut_candlelight_short	Lueur de bougie
+shortcut_candlelight_long	Assombrir en Lueur de bougie
+shortcut_deep_red_short	Rouge profond
+shortcut_deep_red_long	Assombrir en Rouge profond
+shortcut_preset_deleted	Préréglage introuvable
+menu_add_to_home	Ajouter à l'écran d'accueil
+label_add_widget	Ajouter le widget à l'écran d'accueil
+label_add_preset_tile	Ajouter un bloc aux Réglages rapides : Préréglages
+controls_hint	Le bloc active et désactive l'assombrissement. Le bloc des préréglages passe d'un préréglage marqué « Inclure dans le cycle du bloc » au suivant, puis désactive. Appuyez de manière prolongée sur un préréglage dans l'écran principal de l'application pour l'épingler comme raccourci.
+disclosure_title	Dimmer a besoin de l'accès Accessibilité
+disclosure_purpose	Dimmer utilise le service d'accessibilité d'Android pour une seule tâche : afficher le calque d'assombrissement sombre et teinté au-dessus de tous les écrans, y compris la barre d'état et le volet des notifications. C'est ainsi qu'il peut rendre l'écran plus sombre que ne le permet la luminosité du système, et c'est pourquoi il continue de fonctionner quand vous changez d'application.
+disclosure_does_title	Ce que Dimmer en fait
+disclosure_does	• Affiche le calque d'assombrissement et, si vous laissez « Baisser aussi le rétroéclairage » activé, baisse la luminosité de l'écran pendant l'assombrissement.\n• Secouer pour désactiver (activé par défaut, peut être désactivé) : lit le capteur de mouvement du téléphone tant que le calque est visible. Lumière ambiante (seulement si vous l'activez) : lit le capteur de lumière pendant l'assombrissement. Les valeurs des capteurs ne quittent jamais l'application.
+disclosure_never_title	Ce que Dimmer ne fait jamais
+disclosure_never	• Il ne lit jamais ce qui est à l'écran : aucun texte, aucune application, aucun mot de passe, aucun message.\n• Il n'observe jamais ce que vous tapez ou touchez, et n'appuie ni ne tape jamais à votre place.\n• Il ne collecte ni ne partage jamais aucune donnée. Vos réglages restent sur ce téléphone. Dimmer n'a ni compte, ni outil d'analyse, ni autorisation d'accès à Internet.
+disclosure_android_note	Android affiche ensuite son propre avertissement général, qui décrit tous les services d'accessibilité avec les mêmes mots. Le service de Dimmer est configuré pour ne pas pouvoir lire le contenu de l'écran. Vous pouvez désactiver l'accès dans les Paramètres à tout moment.
+disclosure_steps	Sur l'écran suivant, activez « Utiliser Dimmer ».
+disclosure_restricted	Si Android indique « Paramètre restreint » : ouvrez « Infos sur l'appli », appuyez sur les trois points, choisissez « Autoriser les paramètres restreints », puis réessayez.
+disclosure_agree	Accepter et ouvrir les Paramètres
+disclosure_not_now	Pas maintenant
+notification_alert_channel_name	Dimmer s'est arrêté
+stopped_title	Dimmer s'est arrêté
+stopped_text	L'accès Accessibilité de Dimmer a été interrompu, votre écran a donc retrouvé sa luminosité normale. Appuyez pour le réactiver.
+label_room_section	Lumière ambiante
+label_ambient	S'adapter à la lumière ambiante
+ambient_explainer	Seulement pendant l'assombrissement. Dans une pièce très sombre (moins de 3 lux pendant 10 secondes), Dimmer passe au préréglage pour pièce sombre. Dans une pièce lumineuse (plus de 150 lux pendant 10 secondes), il suspend le calque et vous rend le rétroéclairage, jusqu'à ce que la pièce repasse sous 80 lux. Entre les deux, il affiche le réglage que vous avez choisi.
+label_dark_room_preset	Préréglage pour pièce sombre
+ambient_dark_room_missing	Ce préréglage a été supprimé. Dans une pièce sombre, Dimmer garde le réglage que vous avez choisi.
+ambient_no_sensor	Ce téléphone n'a pas de capteur de lumière : cette option est sans effet.
+status_room_bright	Pièce lumineuse · assombrissement suspendu
+status_room_dark	Pièce sombre · avec %1$s
+label_status_section	État
+diag_accessibility_on	Accès Accessibilité : activé
+diag_accessibility_off	Accès Accessibilité : désactivé. Dimmer ne peut pas assombrir.
+diag_backlight_window	Rétroéclairage : luminosité de la fenêtre (aucune autorisation requise)
+diag_backlight_system	Rétroéclairage : luminosité du système
+diag_backlight_none_hybrid_off	Rétroéclairage : inchangé (« Baisser aussi le rétroéclairage » est désactivé), calque uniquement
+diag_backlight_none	Rétroéclairage : calque uniquement tant que « Modifier les paramètres système » n'est pas autorisé
+diag_write_ok	Modifier les paramètres système : autorisé
+diag_write_off	Modifier les paramètres système : non autorisé. La méthode Luminosité du système en a besoin.
+diag_write_not_needed	Modifier les paramètres système : non autorisé (inutile pour la méthode actuelle)
+diag_notifications_ok	Notifications : autorisées
+diag_notifications_off	Notifications : bloquées. La notification d'assombrissement et l'avis « Dimmer s'est arrêté » ne peuvent pas s'afficher.
+diag_schedule_off	Programmation : désactivée
+diag_schedule_next	Programmation : %1$s
+diag_fix_access	Configurer l'accès
+diag_fix_write	Autoriser
+diag_fix_notifications	Ouvrir les paramètres de notification
+diag_recovery_title	Si l'écran reste trop sombre
+diag_recovery	• Secouez le téléphone deux fois. Secouer pour désactiver est activé par défaut et fonctionne aussi sur l'écran de verrouillage.\n• Ou, dans la notification de Dimmer, appuyez sur Pause, puis sur Désactiver. Le bloc et le widget de Dimmer le désactivent aussi.\n• Ou redémarrez le téléphone. Si « Reprendre après redémarrage » est activé et que la programmation est en cours, l'assombrissement revient après le redémarrage : redémarrez, puis secouez le téléphone deux fois.\n• En dernier recours : démarrez le téléphone en Mode sécurisé. Il désactive toutes les applications d'accessibilité, Dimmer compris.
+preset_evening	Soirée
+preset_reading	Lecture
+preset_candlelight	Lueur de bougie
+preset_deep_red	Rouge profond
+preset_ultra_dim	Ultra sombre
+label_about_section	À propos
+label_privacy_policy	Règles de confidentialité
+privacy_summary	Dimmer ne collecte aucune donnée et n'a pas l'autorisation d'accès à Internet. Vos réglages restent sur ce téléphone.
+privacy_no_browser	Aucune application de ce téléphone ne peut ouvrir les liens web. Les règles de confidentialité se trouvent à l'adresse :

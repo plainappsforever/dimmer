@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v3.1 (REVIEW_V3 finding 9), Android 6-11 backup: everything except the brightness journal.
+     The journal describes THIS phone's brightness during a session; restored on another phone it
+     could later flip that phone's brightness mode. Settings (dimmer_prefs) are still backed up. -->
+<full-backup-content>
+    <exclude domain="sharedpref" path="backlight_journal.xml" />
+</full-backup-content>

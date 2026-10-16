@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <!--
+      AAPT genuinely requires the -v26 qualifier to parse the <adaptive-icon>/
+      <monochrome> XML format, even though minSdk is already 26 - confirmed by
+      trying lint's own suggested fix (merging into a plain mipmap-anydpi
+      folder), which fails resource linking. See docs/DECISIONS.md.
+    -->
+    <issue id="ObsoleteSdkInt">
+        <ignore path="src/main/res/mipmap-anydpi-v26" />
+    </issue>
+</lint>

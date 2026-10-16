@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- v3.1 (REVIEW_V3 finding 3): no accessibilityEventTypes and no notificationTimeout, so the
+     service subscribes to no accessibility events at all. It only hosts the overlay window;
+     this matches the in-app disclosure and the Play Accessibility API declaration. -->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/accessibility_service_description"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:canRetrieveWindowContent="false" />

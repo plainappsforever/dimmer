@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material You (Android 12+): dark tones of the wallpaper palette, active = a light accent tone. -->
+    <color name="widget_bg">@android:color/system_neutral1_900</color>
+    <color name="widget_button">@android:color/system_neutral2_700</color>
+    <color name="widget_active">@android:color/system_accent1_200</color>
+    <color name="widget_text">@android:color/system_neutral1_100</color>
+    <color name="widget_text_dim">@android:color/system_neutral2_300</color>
+    <color name="widget_button_text">@android:color/system_neutral1_100</color>
+    <color name="widget_button_text_active">@android:color/system_accent1_900</color>
+    <color name="widget_power_on">@android:color/system_accent1_900</color>
+    <color name="widget_power_off">@android:color/system_neutral1_100</color>
+</resources>

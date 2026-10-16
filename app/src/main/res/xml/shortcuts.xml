@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Static app shortcuts (v3 P5, SPEC 6). Per-preset shortcuts are pinned from the preset menu. -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="static_off"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_off_short"
+        android:shortcutLongLabel="@string/shortcut_off_long">
+        <intent
+            android:action="com.plainapps.dimmer.action.SHORTCUT_OFF"
+            android:targetClass="com.plainapps.dimmer.ShortcutActivity"
+            android:targetPackage="com.plainapps.dimmer" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="static_candlelight"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_candlelight_short"
+        android:shortcutLongLabel="@string/shortcut_candlelight_long">
+        <intent
+            android:action="com.plainapps.dimmer.action.SHORTCUT_PRESET"
+            android:targetClass="com.plainapps.dimmer.ShortcutActivity"
+            android:targetPackage="com.plainapps.dimmer">
+            <extra android:name="preset_id" android:value="candlelight" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="static_deep_red"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_deep_red_short"
+        android:shortcutLongLabel="@string/shortcut_deep_red_long">
+        <intent
+            android:action="com.plainapps.dimmer.action.SHORTCUT_PRESET"
+            android:targetClass="com.plainapps.dimmer.ShortcutActivity"
+            android:targetPackage="com.plainapps.dimmer">
+            <extra android:name="preset_id" android:value="deep_red" />
+        </intent>
+    </shortcut>
+</shortcuts>

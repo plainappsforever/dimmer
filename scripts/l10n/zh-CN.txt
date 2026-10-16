@@ -1,0 +1,165 @@
+# Chinese, Simplified (zh-CN). Polite "您", as Google's zh-CN UI. Android 16 terms: 无障碍功能,
+# 使用“Dimmer”, 修改系统设置, 应用信息, 受限制的设置 / 允许受限制的设置, 快捷设置, 安全模式.
+notification_schedule_channel_name	时间表状态
+notification_title_on	Dimmer · %1$s · %2$d %%
+notification_paused_text	遮罩已关闭，亮度已恢复。
+notification_schedule_off_text	今晚已关闭。
+notification_action_lighter	调亮
+notification_action_darker	调暗
+notification_action_pause	暂停 15 分钟
+notification_action_resume	继续
+notification_action_off	关闭
+notification_action_turn_on	开启
+label_tint	色调
+label_tint_strength	色调强度
+tint_neutral	中性
+tint_amber	琥珀
+tint_candle	蜡烛
+tint_red	红色
+label_settings	设置
+label_back	返回
+label_backlight_section	背光
+label_presets	预设
+label_custom	自定义
+label_save_preset	保存为预设
+presets_full	最多只能有 8 个预设。长按某个预设即可将其删除。
+presets_hint	点按即可应用。长按可重命名、更新或删除。
+preset_long_press_label	预设选项
+menu_rename	重命名
+menu_update_to_current	更新为当前设置
+menu_add_to_cycle	加入图块轮换
+menu_remove_from_cycle	从图块轮换中移除
+menu_delete	删除
+dialog_save_title	保存为预设
+dialog_rename_title	重命名预设
+dialog_name_label	名称
+dialog_delete_title	要删除此预设吗？
+dialog_save	保存
+dialog_cancel	取消
+label_add_tile	添加快捷设置图块
+label_allow	设置访问权限
+overlay_permission_explainer	Dimmer 需要无障碍功能访问权限，才能在包括状态栏在内的所有屏幕上方显示调暗遮罩。Dimmer 绝不会读取您的屏幕内容。在您允许之前，Dimmer 无法调暗屏幕。
+accessibility_service_description	让 Dimmer 能在其他应用和系统屏幕上方显示调暗遮罩，且不会阻挡您的点按操作。Dimmer 不会读取或记录您屏幕上的任何内容。
+notification_hidden_hint	通知已隐藏。请在这里或通过快捷设置图块关闭。
+label_hybrid	同时降低屏幕背光
+hybrid_explainer	先降低实际背光，再用遮罩进一步调暗。
+label_keep_awake	调暗时保持屏幕开启
+label_advanced	高级
+label_backlight_method	背光方式
+method_auto	自动（推荐）
+method_window	窗口亮度（无需权限）
+method_system	系统亮度（需要“修改系统设置”）
+method_none	仅遮罩
+write_settings_needed	要使用系统亮度，Dimmer 需要“修改系统设置”权限。获得权限后，Dimmer 会在调暗期间关闭自动调节亮度并降低系统亮度；调暗结束后，两者都会恢复原样。在此之前，Dimmer 仅使用遮罩调暗。
+method_system_explainer	系统亮度：调暗期间，Dimmer 会关闭自动调节亮度并降低系统亮度。调暗结束后，两者都会恢复原样，除非您在此期间自行更改过。
+label_allow_write_settings	允许
+label_schedule_section	时间表
+label_schedule_enabled	按时间表调暗
+label_schedule_start	开始
+label_schedule_end	结束
+schedule_kind_time	时间
+schedule_kind_sunset	日落
+schedule_kind_sunrise	日出
+label_sun_offset	日出日落时间偏移：%1$s 分钟
+label_fade_in	渐暗
+fade_off	关闭
+fade_minutes	%1$d 分钟
+label_schedule_preset	调暗至
+schedule_preset_missing	该预设已被删除。时间表将使用您当前的效果。
+label_resume_after_restart	重启后继续
+resume_explainer	如果手机在计划时段内重启，则立即重新调暗。关闭时：时间表会等到下一次开始时间。
+schedule_today	今天：%1$s 至 %2$s
+schedule_empty	开始时间和结束时间相同，因此时间表永远不会运行。
+schedule_sun_times	日落 %1$s · 日出 %2$s
+schedule_polar_day	今天没有日落（极昼）。
+schedule_polar_night	今天没有日出（极夜）。
+schedule_polar_fallback	在没有日落或日出期间，使用 21:00 至 07:00。
+schedule_zone_used	这是按时区 %1$s（%2$s，%3$s）计算的，而非按您的位置。如有偏差，请使用偏移。
+schedule_zone_estimated	时区 %1$s 没有已知位置：日出日落时间为估算值。如有偏差，请使用偏移。
+status_fading_in	渐暗至 %1$s
+status_until	时间表 · 至 %1$s
+status_resumes	已关闭 · 时间表将于 %1$s 继续
+status_starts	时间表将于 %1$s 开始
+day_tomorrow	（明天）
+status_paused	已暂停 · 将于 %1$s 继续
+label_pause	暂停
+tile_paused	已暂停
+pause_minutes	%1$d 分钟
+label_resume	立即继续
+label_safety_section	安全
+label_shake	摇一摇关闭
+shake_explainer	1 秒内用力摇两下，即可关闭调暗。在遮罩显示且屏幕开启时有效，锁定屏幕上也可以使用。请保持开启：在最暗的设置下，屏幕上什么也看不到，而摇一摇是唯一无需看屏幕就能完成的退出方式。
+label_shake_sensitivity	摇动灵敏度
+shake_low	低
+shake_medium	中
+shake_high	高
+label_controls_section	控制
+label_automation	允许其他应用控制 Dimmer
+automation_explainer	适用于 Tasker 等应用：发送一条广播，软件包为 com.plainapps.dimmer，操作为 com.plainapps.dimmer.action. 加上 ON、OFF、TOGGLE、PAUSE（extra minutes）、RESUME、DARKER 或 LIGHTER（extra step）、SET（extra darkness、tint、strength；只改变效果）、PRESET（extra name）或 NEXT_PRESET。开启后，任何已安装的应用都能开启或关闭调暗。在您亲自关闭调暗后的一分钟内，其他应用无法重新开启调暗或更改效果，并且 DARKER 绝不会超过您选择的暗度。
+widget_description	Dimmer 的电源按钮和预设
+widget_power_description	开启或关闭调暗
+widget_on	已开启 · %1$d %%
+widget_off	已关闭
+tile_look_with_darkness	%1$s · %2$d %%
+tile_presets_label	调暗预设
+shortcut_off_short	关闭
+shortcut_off_long	关闭 Dimmer
+shortcut_candlelight_short	烛光
+shortcut_candlelight_long	调暗至烛光
+shortcut_deep_red_short	深红
+shortcut_deep_red_long	调暗至深红
+shortcut_preset_deleted	找不到预设
+menu_add_to_home	添加到主屏幕
+label_add_widget	将微件添加到主屏幕
+label_add_preset_tile	添加快捷设置图块：调暗预设
+controls_hint	这个图块可开启和关闭调暗。预设图块会依次切换标有“加入图块轮换”的预设，最后关闭调暗。在应用主屏幕上长按某个预设，即可将其固定为快捷方式。
+disclosure_title	Dimmer 需要无障碍功能访问权限
+disclosure_purpose	Dimmer 使用 Android 的无障碍服务只为了一件事：在包括状态栏和通知栏在内的所有屏幕上方，显示一层带色调的深色调暗遮罩。正因如此，它才能让屏幕比系统亮度允许的更暗，并且在您切换应用时继续生效。
+disclosure_does_title	Dimmer 会用这项权限做什么
+disclosure_does	• 显示调暗遮罩；如果您保持“同时降低屏幕背光”开启，还会在调暗期间降低屏幕亮度。\n• 摇一摇关闭（默认开启，可关闭）：在遮罩显示期间读取手机的运动传感器。环境光（仅在您开启时）：在调暗期间读取光线传感器。传感器读数绝不会离开应用。
+disclosure_never_title	Dimmer 绝不会做什么
+disclosure_never	• 绝不读取屏幕上的内容：不读取文字、应用、密码或消息。\n• 绝不观察您输入或点按的内容，也绝不替您点按或输入。\n• 绝不收集或分享任何数据。您的设置只保留在这部手机上。Dimmer 没有账号、没有分析功能，也没有互联网权限。
+disclosure_android_note	接下来，Android 会显示它自己的通用警告；对所有无障碍服务，它都使用相同的措辞。Dimmer 的服务已设置为无法读取屏幕内容。您可以随时在“设置”中关闭访问权限。
+disclosure_steps	在下一个屏幕上，开启使用“Dimmer”的开关。
+disclosure_restricted	如果 Android 提示“受限制的设置”：请打开“应用信息”，点按右上角的三点状菜单，选择“允许受限制的设置”，然后重试。
+disclosure_agree	同意并打开设置
+disclosure_not_now	以后再说
+notification_alert_channel_name	Dimmer 已停止
+stopped_title	Dimmer 已停止
+stopped_text	Dimmer 的无障碍功能访问权限已停止，因此屏幕已恢复正常亮度。点按即可重新开启。
+label_room_section	环境光
+label_ambient	根据环境光调整
+ambient_explainer	仅在调暗期间有效。在很暗的房间里（10 秒内低于 3 勒克斯），Dimmer 会切换到暗室预设。在明亮的房间里（10 秒内高于 150 勒克斯），它会暂停遮罩并恢复您的背光，直到房间亮度低于 80 勒克斯。介于两者之间时，显示您选择的效果。
+label_dark_room_preset	暗室预设
+ambient_dark_room_missing	该预设已被删除。在暗室中，Dimmer 会保持您选择的效果。
+ambient_no_sensor	这部手机没有光线传感器，因此此设置不起作用。
+status_room_bright	房间明亮 · 调暗已暂停
+status_room_dark	房间较暗 · 正在使用“%1$s”
+label_status_section	状态
+diag_accessibility_on	无障碍功能访问权限：已开启
+diag_accessibility_off	无障碍功能访问权限：已关闭。Dimmer 无法调暗。
+diag_backlight_window	背光：窗口亮度（无需权限）
+diag_backlight_system	背光：系统亮度
+diag_backlight_none_hybrid_off	背光：未调整（“同时降低屏幕背光”已关闭），仅遮罩
+diag_backlight_none	背光：在允许“修改系统设置”之前，仅使用遮罩
+diag_write_ok	修改系统设置：已允许
+diag_write_off	修改系统设置：未允许。系统亮度方式需要此权限。
+diag_write_not_needed	修改系统设置：未允许（当前方式不需要）
+diag_notifications_ok	通知：已允许
+diag_notifications_off	通知：已屏蔽。调暗通知和“Dimmer 已停止”提示无法显示。
+diag_schedule_off	时间表：已关闭
+diag_schedule_next	时间表：%1$s
+diag_fix_access	设置访问权限
+diag_fix_write	允许
+diag_fix_notifications	打开通知设置
+diag_recovery_title	如果屏幕一直太暗
+diag_recovery	• 将手机摇两下。“摇一摇关闭”默认开启，在锁定屏幕上也有效。\n• 或者在 Dimmer 通知中，先点按“暂停”，再点按“关闭”。Dimmer 图块和微件也可以关闭调暗。\n• 或者重启手机。如果“重启后继续”已开启且时间表正在运行，重启后会重新调暗：重启后再将手机摇两下。\n• 最后的办法：以安全模式启动手机。这会关闭所有无障碍应用，包括 Dimmer。
+preset_evening	傍晚
+preset_reading	阅读
+preset_candlelight	烛光
+preset_deep_red	深红
+preset_ultra_dim	超暗
+label_about_section	关于
+label_privacy_policy	隐私权政策
+privacy_summary	Dimmer 不收集任何数据，也没有互联网权限。您的设置只保留在这部手机上。
+privacy_no_browser	这部手机上没有可以打开网页链接的应用。隐私权政策的网址是：

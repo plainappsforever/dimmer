@@ -1,0 +1,166 @@
+# Japanese (ja). Polite です/ます style, as Google's Japanese UI. Android 16 terms: ユーザー補助, 「Dimmerを使用」,
+# システム設定の変更, アプリ情報, 制限付き設定 / 制限付き設定を許可, クイック設定, セーフモード.
+# Preset names are short (ろうそく, 濃い赤): the small home-screen widget ellipsized キャンドルライト (layout check 2026-10-12).
+notification_schedule_channel_name	スケジュールの状態
+notification_title_on	Dimmer · %1$s · %2$d %%
+notification_paused_text	レイヤーはオフです。画面の明るさは元に戻っています。
+notification_schedule_off_text	今夜はオフにしました。
+notification_action_lighter	明るく
+notification_action_darker	暗く
+notification_action_pause	15分停止
+notification_action_resume	再開
+notification_action_off	オフ
+notification_action_turn_on	オンにする
+label_tint	色味
+label_tint_strength	色味の強さ
+tint_neutral	ニュートラル
+tint_amber	アンバー
+tint_candle	キャンドル
+tint_red	レッド
+label_settings	設定
+label_back	戻る
+label_backlight_section	バックライト
+label_presets	プリセット
+label_custom	カスタム
+label_save_preset	プリセットとして保存
+presets_full	プリセットは 8 個までです。削除するには長押ししてください。
+presets_hint	タップで適用、長押しで名前の変更・更新・削除ができます。
+preset_long_press_label	プリセットのオプション
+menu_rename	名前を変更
+menu_update_to_current	現在の設定で更新
+menu_add_to_cycle	タイルの切り替えに含める
+menu_remove_from_cycle	タイルの切り替えから外す
+menu_delete	削除
+dialog_save_title	プリセットとして保存
+dialog_rename_title	プリセット名を変更
+dialog_name_label	名前
+dialog_delete_title	このプリセットを削除しますか？
+dialog_save	保存
+dialog_cancel	キャンセル
+label_add_tile	クイック設定にタイルを追加
+label_allow	アクセスを設定
+overlay_permission_explainer	Dimmer がステータスバーを含むすべての画面の上に減光レイヤーを表示するには、ユーザー補助へのアクセスが必要です。Dimmer が画面の内容を読み取ることはありません。許可するまで、Dimmer は画面を暗くできません。
+accessibility_service_description	Dimmer が、タップを妨げることなく、他のアプリやシステム画面の上に減光レイヤーを表示できるようにします。Dimmer は画面上の内容を読み取ったり記録したりしません。
+notification_hidden_hint	通知は非表示です。ここかクイック設定のタイルでオフにしてください。
+label_hybrid	画面のバックライトも下げる
+hybrid_explainer	まず実際のバックライトを下げ、さらにレイヤーで暗くします。
+label_keep_awake	減光中は画面をオンのままにする
+label_advanced	詳細設定
+label_backlight_method	バックライトの方法
+method_auto	自動（推奨）
+method_window	ウィンドウの明るさ（権限不要）
+method_system	システムの明るさ（「システム設定の変更」が必要）
+method_none	レイヤーのみ
+write_settings_needed	システムの明るさを使うには、Dimmer に「システム設定の変更」の許可が必要です。許可すると、減光中は Dimmer が明るさの自動調節をオフにしてシステムの明るさを下げ、減光が終わると両方を元に戻します。それまでは、Dimmer はレイヤーだけで暗くします。
+method_system_explainer	システムの明るさ: 減光中は Dimmer が明るさの自動調節をオフにして、システムの明るさを下げます。減光が終わると、その間にご自身で変更していない限り、両方とも元に戻ります。
+label_allow_write_settings	許可
+label_schedule_section	スケジュール
+label_schedule_enabled	スケジュールで暗くする
+label_schedule_start	開始
+label_schedule_end	終了
+schedule_kind_time	時刻
+schedule_kind_sunset	日の入り
+schedule_kind_sunrise	日の出
+label_sun_offset	日の出・日の入り時刻の補正: %1$s 分
+label_fade_in	フェードイン
+fade_off	オフ
+fade_minutes	%1$d 分
+label_schedule_preset	使用するプリセット
+schedule_preset_missing	そのプリセットは削除されました。スケジュールでは現在の見た目を使います。
+label_resume_after_restart	再起動後に再開
+resume_explainer	スケジュールの時間帯にスマートフォンが再起動した場合、すぐにまた暗くします。オフの場合は、次の開始時刻まで待ちます。
+schedule_today	今日: %1$s～%2$s
+schedule_empty	開始と終了が同じ時刻のため、スケジュールは実行されません。
+schedule_sun_times	日の入り %1$s · 日の出 %2$s
+schedule_polar_day	今日は日の入りがありません（白夜）。
+schedule_polar_night	今日は日の出がありません（極夜）。
+schedule_polar_fallback	日の入りや日の出がない間は 21:00～07:00 を使います。
+schedule_zone_used	現在地ではなく、タイムゾーン %1$s（%2$s, %3$s）で計算しています。ずれている場合は補正を使ってください。
+schedule_zone_estimated	タイムゾーン %1$s の場所がわからないため、日の出・日の入り時刻は推定です。ずれている場合は補正を使ってください。
+status_fading_in	%1$s までフェードイン中
+status_until	スケジュール · %1$s まで
+status_resumes	オフ · %1$s にスケジュールを再開
+status_starts	%1$s にスケジュールを開始
+day_tomorrow	（明日）
+status_paused	停止中 · %1$s に再開
+label_pause	一時停止
+tile_paused	停止中
+pause_minutes	%1$d 分
+label_resume	今すぐ再開
+label_safety_section	安全
+label_shake	振ってオフ
+shake_explainer	1 秒以内に 2 回強く振ると、減光がオフになります。レイヤーが表示されていて画面がオンのときに動作し、ロック画面でも使えます。オンのままにしておいてください。最も暗い設定では画面に何も表示されず、見なくてもできる操作は振ることだけです。
+label_shake_sensitivity	振る強さの感度
+shake_low	低
+shake_medium	中
+shake_high	高
+label_controls_section	操作
+label_automation	他のアプリによる Dimmer の操作を許可
+automation_explainer	Tasker などのアプリ向け: パッケージ com.plainapps.dimmer、アクション com.plainapps.dimmer.action. に ON、OFF、TOGGLE、PAUSE（extra minutes）、RESUME、DARKER または LIGHTER（extra step）、SET（extra darkness、tint、strength。見た目のみ変更）、PRESET（extra name）、NEXT_PRESET のいずれかを付けてブロードキャストを送信します。オンの間は、インストールされているどのアプリでも減光をオン・オフできます。ご自身で減光をオフにしてから 1 分間は、他のアプリが再びオンにしたり見た目を変えたりすることはできず、DARKER で選択した暗さを超えることもありません。
+widget_description	Dimmer の電源ボタンとプリセット
+widget_power_description	減光をオンまたはオフにする
+widget_on	オン · %1$d %%
+widget_off	オフ
+tile_look_with_darkness	%1$s · %2$d %%
+tile_presets_label	減光プリセット
+shortcut_off_short	オフにする
+shortcut_off_long	Dimmer をオフにする
+shortcut_candlelight_short	ろうそく
+shortcut_candlelight_long	ろうそくで暗くする
+shortcut_deep_red_short	濃い赤
+shortcut_deep_red_long	濃い赤で暗くする
+shortcut_preset_deleted	プリセットが見つかりません
+menu_add_to_home	ホーム画面に追加
+label_add_widget	ホーム画面にウィジェットを追加
+label_add_preset_tile	クイック設定にタイルを追加: 減光プリセット
+controls_hint	タイルで減光をオン・オフできます。プリセットのタイルは「タイルの切り替えに含める」を付けたプリセットを順に切り替え、最後にオフにします。アプリのメイン画面でプリセットを長押しすると、ショートカットとして固定できます。
+disclosure_title	Dimmer にはユーザー補助へのアクセスが必要です
+disclosure_purpose	Dimmer は Android のユーザー補助サービスを 1 つの目的だけに使います。ステータスバーや通知シェードを含むすべての画面の上に、暗く色の付いた減光レイヤーを表示することです。これにより、システムの明るさで設定できるよりも画面を暗くでき、アプリを切り替えても減光が続きます。
+disclosure_does_title	Dimmer がこのアクセスで行うこと
+disclosure_does	• 減光レイヤーを表示し、「画面のバックライトも下げる」をオンのままにしている場合は、減光中に画面の明るさを下げます。\n• 振ってオフ（デフォルトでオン、オフにすることも可能）: レイヤーの表示中は、スマートフォンのモーション センサーを読み取ります。部屋の明るさ（オンにした場合のみ）: 減光中は光センサーを読み取ります。センサーの値がアプリの外に出ることはありません。
+disclosure_never_title	Dimmer が決して行わないこと
+disclosure_never	• 画面に表示されている内容は一切読み取りません。テキスト、アプリ、パスワード、メッセージも読み取りません。\n• 入力やタップの内容を見ることはなく、代わりにタップや入力をすることもありません。\n• データの収集や共有は一切行いません。設定はこのスマートフォン内にとどまります。Dimmer にはアカウントも分析機能もなく、インターネットの権限もありません。
+disclosure_android_note	次に Android 独自の一般的な警告が表示されます。この警告は、すべてのユーザー補助サービスについて同じ文言で説明するものです。Dimmer のサービスは画面の内容を読み取れないように設定されています。アクセスはいつでも設定でオフにできます。
+disclosure_steps	次の画面で「Dimmerを使用」をオンにしてください。
+disclosure_restricted	Android に「制限付き設定」と表示された場合は、「アプリ情報」を開いて縦の 3 点アイコンをタップし、「制限付き設定を許可」を選んでから、もう一度お試しください。
+disclosure_agree	同意して設定を開く
+disclosure_not_now	後で
+notification_alert_channel_name	Dimmer が停止しました
+stopped_title	Dimmer が停止しました
+stopped_text	Dimmer のユーザー補助へのアクセスが停止したため、画面は通常の明るさに戻りました。タップすると再びオンにできます。
+label_room_section	部屋の明るさ
+label_ambient	部屋の明るさに合わせる
+ambient_explainer	減光中のみ動作します。とても暗い部屋（10 秒間 3 ルクス未満）では、Dimmer は暗い部屋用のプリセットに切り替えます。明るい部屋（10 秒間 150 ルクス超）では、部屋が 80 ルクスを下回るまでレイヤーを一時停止し、バックライトを元に戻します。その間は、選択した見た目のままです。
+label_dark_room_preset	暗い部屋用のプリセット
+ambient_dark_room_missing	そのプリセットは削除されました。暗い部屋でも、Dimmer は選択した見た目のままにします。
+ambient_no_sensor	このスマートフォンには光センサーがないため、この設定は機能しません。
+status_room_bright	明るい部屋 · 減光を一時停止中
+status_room_dark	暗い部屋 · %1$s を使用中
+label_status_section	ステータス
+diag_accessibility_on	ユーザー補助へのアクセス: オン
+diag_accessibility_off	ユーザー補助へのアクセス: オフ。Dimmer は画面を暗くできません。
+diag_backlight_window	バックライト: ウィンドウの明るさ（権限不要）
+diag_backlight_system	バックライト: システムの明るさ
+diag_backlight_none_hybrid_off	バックライト: 変更なし（「画面のバックライトも下げる」がオフ）、レイヤーのみ
+diag_backlight_none	バックライト: 「システム設定の変更」が許可されるまではレイヤーのみ
+diag_write_ok	システム設定の変更: 許可済み
+diag_write_off	システム設定の変更: 未許可。システムの明るさの方法に必要です。
+diag_write_not_needed	システム設定の変更: 未許可（現在の方法では不要）
+diag_notifications_ok	通知: 許可済み
+diag_notifications_off	通知: ブロック中。減光中の通知と「Dimmer が停止しました」のお知らせを表示できません。
+diag_schedule_off	スケジュール: オフ
+diag_schedule_next	スケジュール: %1$s
+diag_fix_access	アクセスを設定
+diag_fix_write	許可
+diag_fix_notifications	通知設定を開く
+diag_recovery_title	画面が暗いままになってしまったら
+diag_recovery	• スマートフォンを 2 回振ってください。「振ってオフ」はデフォルトでオンになっており、ロック画面でも使えます。\n• または、Dimmer の通知で「15分停止」、続いて「オフ」をタップします。Dimmer のタイルやウィジェットでもオフにできます。\n• または、スマートフォンを再起動します。「再起動後に再開」がオンでスケジュールの時間帯の場合は、再起動後にまた暗くなります。再起動してから、スマートフォンを 2 回振ってください。\n• 最後の手段: スマートフォンをセーフモードで起動します。Dimmer を含むすべてのユーザー補助アプリがオフになります。
+preset_evening	夕方
+preset_reading	読書
+preset_candlelight	ろうそく
+preset_deep_red	濃い赤
+preset_ultra_dim	超低輝度
+label_about_section	アプリについて
+label_privacy_policy	プライバシー ポリシー
+privacy_summary	Dimmer はデータを一切収集せず、インターネットの権限もありません。設定はこのスマートフォン内にとどまります。
+privacy_no_browser	このスマートフォンにはウェブリンクを開けるアプリがありません。プライバシー ポリシーの URL:
