@@ -71,6 +71,12 @@ android {
         compose = true
     }
 
+    // F-Droid reproducible builds: no Play dependency metadata (a signed blob) in the APK/AAB (RELEASE_KIT section 2).
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
+    }
+
     // v3.1: DimmerCommandsTest runs the real commands on the JVM; android.util.Log (and the
     // TileService/ICU calls they never reach) return defaults instead of throwing "not mocked".
     testOptions {
