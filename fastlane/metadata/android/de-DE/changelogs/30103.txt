@@ -1,0 +1,1 @@
+Erstes signiertes APK auf GitHub, reproduzierbarer Build (F-Droid veröffentlicht genau dieses APK nur, wenn sein eigener Build identisch ist). Keine funktionalen Änderungen.

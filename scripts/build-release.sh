@@ -4,7 +4,7 @@
 #   - ./gradlew bundleRelease assembleRelease (R8 minify + resource shrinking on; signing from the owner's upload-key
 #     properties file OUTSIDE the repo, see app/build.gradle.kts; missing file -> debug key + warning)
 #   - copies dist/dimmer-<version>.aab (for Play) and dist/dimmer-<version>-release.apk (for emulator tests)
-#   - prints the signer (must be "CN=Dimmer upload key", never "CN=Android Debug"), the 16 KB alignment result
+#   - prints the signer (must be "CN=Dimmer release key, O=Plain Apps" since 3.1.3, D-RB-1; never "CN=Android Debug"), the 16 KB alignment result
 #     of every native library, and the permissions of the release APK (compare with docs/RELEASE_KIT.md section 6)
 # Never prints a password. Needs JAVA_HOME (OpenJDK 17) and ANDROID_HOME as in CLAUDE.md.
 set -euo pipefail

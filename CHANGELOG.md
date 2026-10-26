@@ -3,6 +3,16 @@
 Version scheme: `versionName` MAJOR.MINOR.PATCH, `versionCode` MMmmpp (3.1.0 = 30100). Every upload to Google Play,
 including test tracks, needs a higher `versionCode` than the one before.
 
+## 3.1.3 (versionCode 30103) - 2026-10-26
+- First signed APK on GitHub Releases. The build is reproducible: F-Droid builds the same tag from source and publishes
+  this exact APK only if its own build is identical (`Binaries` + `AllowedAPKSigningKeys`). Signed with the Dimmer
+  release key (CN=Dimmer release key, O=Plain Apps), which is also the key for Google Play uploads.
+- Build: no Play "dependency metadata" block in the APK (`dependenciesInfo` off), Gradle distribution checksum pinned.
+  No functional changes.
+
+## 3.1.2 (versionCode 30102) - 2026-10-16
+- Privacy policy link opens the Plain Apps website; store images sorted. No functional changes.
+
 ## 3.1.1 (versionCode 30101) - 2026-10-12
 - Play policy audit fixes (`docs/PLAY_POLICY_AUDIT.md` C2-C5): Settings > About > Privacy policy (opens the page in the
   browser; no internet permission); disclosure says "never collects or shares any data. Your settings stay on this

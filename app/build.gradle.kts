@@ -5,12 +5,14 @@ plugins {
     alias(libs.plugins.kotlin.compose)
 }
 
-// Release signing (launch step 2). The owner's UPLOAD key lives OUTSIDE every repo; this file only names the path.
+// Release signing. The RELEASE key (GitHub Releases, F-Droid reproducible builds via AllowedAPKSigningKeys, and the
+// Google Play upload key; D-RB-1, 2026-10-26) lives OUTSIDE every repo; this file only names the path.
 // The properties file holds storeFile, storePassword, keyAlias, keyPassword. Nothing from it is printed or copied.
 // Override the path with -Pdimmer.uploadProperties=/path/to/file. Missing file -> release falls back to the debug key
-// with a warning (such a build is for emulator tests only; Play refuses debug-signed bundles).
+// with a warning (such a build is for emulator tests only; Play refuses debug-signed bundles). F-Droid deletes the
+// `signingConfig =` line below (recipe prebuild) and builds unsigned; its build must match ours byte for byte.
 val uploadPropertiesFile = file(
-    (findProperty("dimmer.uploadProperties") as String?) ?: (System.getProperty("user.home") + "/Developer/.keys/dimmer-upload.properties")
+    (findProperty("dimmer.uploadProperties") as String?) ?: (System.getProperty("user.home") + "/Developer/.keys/dimmer-release.properties")
 )
 val uploadProperties: Properties? = uploadPropertiesFile.takeIf { it.isFile }?.let { f ->
     Properties().apply { f.inputStream().use { load(it) } }
@@ -20,7 +22,7 @@ val uploadProperties: Properties? = uploadPropertiesFile.takeIf { it.isFile }?.l
 }
 if (uploadProperties == null) {
     logger.warn(
-        "WARNING: upload key properties not found or incomplete at ${uploadPropertiesFile.path} - " +
+        "WARNING: release key properties not found or incomplete at ${uploadPropertiesFile.path} - " +
             "the RELEASE build is signed with the DEBUG key (emulator testing only, not uploadable to Google Play)."
     )
 }
@@ -33,8 +35,8 @@ android {
         applicationId = "com.plainapps.dimmer"
         minSdk = 26
         targetSdk = 36
-        versionCode = 30102 // scheme MMmmpp: 3.1.2 -> 30102 (3.1.2 = Plain Apps privacy link, 2026-10-16); every Play upload must be higher (RELEASE_KIT section 2)
-        versionName = "3.1.2"
+        versionCode = 30103 // scheme MMmmpp: 3.1.3 -> 30103 (3.1.3 = reproducible build signed with the release key, 2026-10-26); every Play upload must be higher (RELEASE_KIT section 2)
+        versionName = "3.1.3"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
